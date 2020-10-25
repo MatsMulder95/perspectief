@@ -1,62 +1,64 @@
 <template>
-  <div>
+  <div id="page-holder">
+    <div id="page-transition-holder"></div>
+    <PageHeader />
     <Nuxt />
+    <PageFooter />
   </div>
 </template>
 
+<script>
+    import PageHeader from "../components/PageHeader";
+    import PageFooter from "../components/PageFooter";
+    export default {
+        components: {PageFooter, PageHeader},
+        link: [
+            {
+                rel: 'stylesheet',
+                href: "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@500;700&display=swap",
+            }
+        ],
+
+
+    }
+
+</script>
+
+
 <style>
-html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
+  #page-holder {
+    overflow: hidden;
+    background-image: url("/images/grid.png");
+    background-size: 750px 750px;
+    background-repeat: repeat;
+  }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-}
+  #page-overlay{
+    position: absolute;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    margin-left: 100vw;
+    -webkit-transition: ease-out 2s;
+    -moz-transition: ease-out 2s;
+    transition: ease-out 2s;
+  }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
+  #page-transition-holder{
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #153243;
+    margin-left: 100%;
+  }
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
 
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
+  .home-enter-active, .home-leave-active {
+    transition: opacity 500ms;
+  }
+  .home-enter, .home-leave-active { opacity: 0; }
 </style>
+

@@ -1,0 +1,209 @@
+.grey-mode {
+  --bg: #EAEAEA;
+}
+
+.green-mode {
+  --bg: #E6EBE5;
+  --main-color: #FFF7CD;
+}
+
+.yellow-mode {
+  --bg: #FFFBEC;
+}
+
+.blue-mode {
+  --bg: #ECF0F1;
+}
+
+@font-face {
+  font-family: 'Great Vibes';
+  src: url('~assets/fonts/GreatVibes-Regular.ttf') format('truetype');
+}
+
+body {
+  background-color: var(--bg);
+  -webkit-transition: ease-out 1s;
+  -moz-transition: ease-out 1s;
+  transition: ease-out 1s;
+}
+
+
+.pink {
+  color: #DB0D86;
+}
+
+.bg-pink {
+  background-color: #DB0D86;
+}
+
+.lightblue {
+  color: #ECF0F1;
+}
+
+.bg-lightblue {
+  background-color: #ECF0F1;
+}
+
+.blue {
+  color: #AFC2C6;
+}
+
+.bg-blue {
+  background-color: #AFC2C6;
+}
+
+.darkblue {
+  color: #153243 !important;
+}
+
+.bg-darkblue {
+  background-color: #153243;
+}
+
+.lightgrey {
+  color: #EAEAEA
+}
+
+.bg-lightgrey {
+  background-color: #EAEAEA
+}
+
+.grey {
+  color: #B7B7B7
+}
+
+.bg-grey {
+  background-color: #B7B7B7
+}
+
+.lightgreen {
+  color: #E6EBE5
+}
+
+.bg-lightgreen {
+  background-color: #E6EBE5
+}
+
+.green {
+  color: #B3C1A8
+}
+
+.bg-green {
+  background-color: #B3C1A8
+}
+
+.lightyellow {
+  color: #FFFBEC
+}
+
+.bg-lightyellow {
+  background-color: #FFFBEC
+}
+
+.yellow {
+  color: #FFF7CD
+}
+
+.bg-yellow{
+  background-color: #FFF7CD!important;
+}
+
+.darkyellow {
+  color: #C1BCA8
+}
+
+.bg-darkyellow {
+  background-color: #C1BCA8
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+h5 {
+  font-family: "Great Vibes";
+  font-size: 3.5rem;
+}
+
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.btn {
+  padding: 15px 30px 15px 30px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  border: none;
+  border-radius: 0;
+  font-size: 1rem;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  box-shadow: inset 0 0 0 0 #153243;
+  background-color: #DB0D86;
+  -webkit-transition: ease-out 0.3s;
+  -moz-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+
+.btn:after {
+  margin-left: 10px;
+  content:'🡒';
+  -webkit-transition: ease-out 0.3s;
+  -moz-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+
+.btn:hover {
+  background-color: #153243;
+  box-shadow: inset 400px 0 0 0 #153243;
+  color: white!important;
+}
+
+.btn:hover:after {
+  margin-left: 20px;
+}
+
+.btn-small{
+  padding: 10px 20px 10px 20px;
+  font-size: 0.8rem;
+}
+
+.text-underscore{
+  text-decoration: underline;
+
+}
+
+.page-animation{
+  -webkit-transition: ease-out 500ms;
+  -moz-transition: ease-out 500ms;
+  transition: ease-out 500ms;
+}
+
+

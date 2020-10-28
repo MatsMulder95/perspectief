@@ -3,9 +3,6 @@ label: Project
 hide_body: true
 fields:
 - type: text
-  name: type
-  label: type
-- type: text
   name: title
   label: title
 - type: textarea
@@ -14,3 +11,19 @@ fields:
 - type: file
   name: image
   label: image
+- name: type
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - tuinen
+    - landgoederen
+    - openbare ruimte
+    - kunst
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Type Project

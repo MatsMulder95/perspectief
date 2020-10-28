@@ -33,9 +33,10 @@ werkwijze:
     test
 kosten:
   title: Kosten
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  subtitle: Iets is duur, als u een miskoop doet of als u iets krijgt, wat U niet
+    wil. Dat is bij Perspectief nooit het geval, immers uw wensen worden vertaald  en
+    op papier gezet. De tekening is de leidraad voor de inrichting en de kostenbegroting  voor
+    exploitatie, die volgens vaste  standaardprijzen worden berekend.
   image: "/images/IMG_9639.jpg"
   content: |-
     ###### Uurprijs

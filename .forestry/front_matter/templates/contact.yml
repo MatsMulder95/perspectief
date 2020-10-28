@@ -4,60 +4,64 @@ hide_body: true
 fields:
 - type: field_group
   name: introduction
-  label: introduction
+  label: Pagina Introductie
   fields:
   - type: text
     name: title
-    label: title
+    label: Pagina Titel
   - type: textarea
     name: subtitle
-    label: subtitle
+    label: Pagina Omschrijving
 - type: field_group
   name: large_image
-  label: large_image
   fields:
   - type: file
     name: src
     label: src
+  label: Pagina Afbeelding
 - type: field_group
   name: form
-  label: form
+  label: Contact Formulier
   fields:
   - type: text
     name: title
-    label: title
+    label: Sectie Titel
   - type: textarea
     name: subtitle
-    label: subtitle
+    label: Sectie Omschrijving
   - type: file
     name: image
-    label: image
+    label: Sectie Afbeelding
 - type: field_group
   name: contact
-  label: contact
+  label: Contact Gegegevens
   fields:
   - type: text
     name: title
-    label: title
+    label: Sectie Titel
   - type: textarea
     name: subtitle
-    label: subtitle
+    label: Sectie Omschrijving
   - type: file
     name: image
-    label: image
+    label: Sectie Afbeelding
   - type: textarea
     name: content
-    label: content
+    label: Sectie Inhoud
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
 - type: field_group
   name: call_to_action
-  label: call_to_action
+  label: 'Call to action: bekijk projecten'
   fields:
   - type: text
     name: title
-    label: title
+    label: Titel
   - type: textarea
     name: subtitle
-    label: subtitle
+    label: Omschrijving
   - type: text
     name: btn
-    label: btn
+    label: Button

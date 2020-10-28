@@ -2,9 +2,12 @@
 introduction:
   name: Perspectief
   title: Tuin- en landschapsdokter
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Utd enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cofnsequat.
+  description: De begrenzingen van ruimtes kunnen semi transparant of solide zijn,
+    zoals pergola’s, hekken, heggen, aarden wallen, bosplantsoen, struikmassa’s of
+    opgekroonde bomen. De ruimte worden ook in een horizontale vlak gevuld met bestrating,
+    semiverharding, gazons of spiegelvijvers. De kunst is om een goede balans te vinden
+    in de wensen van de klant en de artistieke ideeën van de ontwerper voor een acceptabele
+    prijs.
   btn: Meer over perspectief
 large_image:
   src: "/images/ernst_tuin.jpg"

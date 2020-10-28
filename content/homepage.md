@@ -7,7 +7,7 @@ introduction:
     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   btn: Meer over perspectief
 large_image:
-  src: "/images/example_image.jpg"
+  src: "/images/ernst_tuin.jpg"
 aanbod:
   title: Ons Aanbod
   subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

@@ -52,8 +52,14 @@ fields:
   - type: file
     name: image
     label: Sectie Afbeelding
-  - type: text
-    name: content
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
     label: Sectie Inhoud
 - type: field_group
   name: kosten
@@ -71,6 +77,10 @@ fields:
   - type: textarea
     name: content
     label: Sectie Inhoud
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
 - type: field_group
   name: call_to_action
   label: 'Call to action: neem contact op'

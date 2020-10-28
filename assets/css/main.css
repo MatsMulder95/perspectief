@@ -23,7 +23,7 @@
 
 @font-face {
   font-family: 'vivaldi';
-  src: url('~assets/fonts/vivaldi2.ttf') format('truetype');
+  src: url('~assets/fonts/vivaldi2.TTF') format('truetype');
 }
 
 body {

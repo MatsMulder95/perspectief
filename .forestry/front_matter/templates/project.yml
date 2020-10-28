@@ -2,15 +2,6 @@
 label: Project
 hide_body: true
 fields:
-- type: text
-  name: title
-  label: title
-- type: textarea
-  name: subtitle
-  label: subtitle
-- type: file
-  name: image
-  label: image
 - name: type
   type: select
   default: []
@@ -27,5 +18,14 @@ fields:
       file: 
       path: 
   label: Type Project
+- type: text
+  name: title
+  label: Project Titel
+- type: textarea
+  name: subtitle
+  label: Project Omschrijving
+- type: file
+  name: image
+  label: Project Afbeelding
 pages:
 - content/projects/testproject2.md

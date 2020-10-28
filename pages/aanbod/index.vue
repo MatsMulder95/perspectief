@@ -5,17 +5,17 @@
     <LargeImage :src="aanbod.large_image.src" style="margin-top: 20vh"></LargeImage>
     <div class="bg-blue">
 
-      <ProjectBlock :content="aanbod.tuinen" :projects="tuin_projects"></ProjectBlock>
+      <ProjectBlock id="tuinen" :content="aanbod.tuinen" :projects="tuin_projects"></ProjectBlock>
 
-      <ProjectBlock :content="aanbod.landgoederen" :projects="landgoederen_projects"></ProjectBlock>
+      <ProjectBlock id="landgoederen" :content="aanbod.landgoederen" :projects="landgoederen_projects"></ProjectBlock>
 
-      <ProjectBlock :content="aanbod.openbaar" :projects="openbaar_projects"></ProjectBlock>
+      <ProjectBlock id="openbare-ruimte" :content="aanbod.openbaar" :projects="openbaar_projects"></ProjectBlock>
 
-      <ProjectBlock :content="aanbod.kunst" :projects="kunst_projects"></ProjectBlock>
+      <ProjectBlock id="kunst" :content="aanbod.kunst" :projects="kunst_projects"></ProjectBlock>
 
     </div>
 
-    <CallAction :content="aanbod.call_to_action" style="margin-top: 15vh; padding-bottom: 15vh"></CallAction>
+    <CallAction :content="aanbod.call_to_action" link="/contact" style="margin-top: 15vh; padding-bottom: 15vh"></CallAction>
 
   </div>
 

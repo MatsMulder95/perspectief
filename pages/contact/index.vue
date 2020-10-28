@@ -4,7 +4,7 @@
     <LargeImage :src="contact.large_image.src" style="margin-top: 20vh"></LargeImage>
     <div class="bg-darkyellow">
       <ContentBlock :content="contact.form"  style="padding-bottom: 25vh">
-        <form>
+        <form name="contact" method="POST" data-netlify="true">
           <div class="form-group">
             <label for="FormName">Naam</label>
             <input required type="text" class="form-control" id="FormName">
@@ -21,8 +21,9 @@
             <label for="FormMessage">Bericht</label>
             <textarea required class="form-control" id="FormMessage" rows="5"></textarea>
           </div>
+          <button type="button" class="btn mt-2 bg-pink">Vestuur</button>
         </form>
-        <button type="button" class="btn mt-2 bg-pink">Vestuur</button>
+
       </ContentBlock>
 
       <ContentBlock left :content="contact.contact" style="padding-bottom: 15vh">
@@ -30,7 +31,7 @@
       </ContentBlock>
 
     </div>
-    <CallAction :content="contact.call_to_action" style="margin-top: 15vh; padding-bottom: 15vh"></CallAction>
+    <CallAction :content="contact.call_to_action" link="/aanbod" style="margin-top: 15vh; padding-bottom: 15vh"></CallAction>
   </div>
 </template>
 

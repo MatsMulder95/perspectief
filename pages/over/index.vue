@@ -17,7 +17,7 @@
 
     </div>
 
-    <CallAction :content="over.call_to_action" style="margin-top: 15vh; padding-bottom: 15vh"></CallAction>
+    <CallAction :content="over.call_to_action" link="/contact" style="margin-top: 15vh; padding-bottom: 15vh"></CallAction>
 
   </div>
 

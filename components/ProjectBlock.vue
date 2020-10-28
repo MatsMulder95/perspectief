@@ -27,7 +27,7 @@
         <div class="col-10">
           <div class="owl-carousel owl-theme">
             <div v-for="project in projects" class="item">
-              <ProjectHolder :content="project"></ProjectHolder>
+              <ProjectHolder :content="project" link="/contact"></ProjectHolder>
             </div>
           </div>
 

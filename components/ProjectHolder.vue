@@ -4,7 +4,7 @@
       <div id="text-holder">
         <h3 class="text-white">{{ content.title }}</h3>
         <p class="text-white">{{ content.subtitle }}</p>
-        <nuxt-link to="/aanbod"><button type="button" class="btn btn-small mt-3 bg-yellow darkblue">Bekijk Projecten</button></nuxt-link>
+        <nuxt-link :to="link"><button type="button" class="btn btn-small mt-3 bg-yellow darkblue">Bekijk Projecten</button></nuxt-link>
       </div>
     </div>
     <div class="bg-lightgrey" id="shadow"></div>
@@ -16,7 +16,8 @@
   export default {
       name: 'project-holder',
       props : {
-          content: Object
+          content: Object,
+          link: String,
       },
   }
 </script>

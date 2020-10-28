@@ -12,7 +12,7 @@
     </div>
     <div class="row mt-3">
       <div class="col-12">
-        <nuxt-link to="/over"><button type="button" class="btn mt-3 bg-pink">{{ content.btn }}</button></nuxt-link>
+        <nuxt-link :to=link><button type="button" class="btn mt-3 bg-pink">{{ content.btn }}</button></nuxt-link>
       </div>
     </div>
   </div>
@@ -22,7 +22,8 @@
   export default {
       name : 'call-action',
       props: {
-          content: Object
+          content: Object,
+          link: String,
       }
   }
 </script>

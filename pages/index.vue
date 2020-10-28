@@ -29,24 +29,24 @@
 
             <div class="row mt-5">
               <div class="col-6">
-                <ProjectHolder :content="homepage.aanbod.tuinen"></ProjectHolder>
+                <ProjectHolder :content="homepage.aanbod.tuinen" link="/aanbod#tuinen"></ProjectHolder>
               </div>
               <div class="col-6">
-                <ProjectHolder :content="homepage.aanbod.landgoederen"></ProjectHolder>
+                <ProjectHolder :content="homepage.aanbod.landgoederen" link="/aanbod#landgoederen"></ProjectHolder>
               </div>
             </div>
           <div class="row mt-5">
               <div class="col-6">
-                <ProjectHolder :content="homepage.aanbod.openbare_ruimte"></ProjectHolder>
+                <ProjectHolder :content="homepage.aanbod.openbare_ruimte" link="/aanbod#openbare-ruimte"></ProjectHolder>
               </div>
               <div class="col-6">
-                <ProjectHolder :content="homepage.aanbod.kunst"></ProjectHolder>
+                <ProjectHolder :content="homepage.aanbod.kunst" link="/aanbod#kunst"></ProjectHolder>
               </div>
             </div>
         </div>
       </div>
 
-    <CallAction :content="homepage.call_to_action" style="margin-top: 15vh; padding-bottom: 15vh"></CallAction>
+    <CallAction :content="homepage.call_to_action" link="/contact" style="margin-top: 15vh; padding-bottom: 15vh"></CallAction>
 
   </div>
 

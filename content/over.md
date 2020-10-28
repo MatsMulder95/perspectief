@@ -42,13 +42,15 @@ werkwijze:
     en het enige exemplaar met die inrichting.
   image: "/images/IMG_9631.jpg"
   content: |-
-    1. Option one
+    Bij grote veranderingen en aanleg van een tuin, merk ik dat vele opdrachtgevers niet goed weten wat ze kunnen verwachten. Hoe gaat een opdracht in zijn werk?
 
-    Second paragraph
-
-    2. Option two
-
-    test
+    1. Tijdens een eerste kennismakingsgesprek probeer ik inzicht te krijgen in uw ideeën over de huidige tuin en uw droomtuin. Het is prettig als U voorbeelden zoals plaatjes of foto’s uit tijdschriften beschikbaar heeft.
+    2. Hierna wordt er ev. Een kostenbegroting voor de volgende stap gemaakt.
+    3. Uw tuin wordt uitgebreider bekeken en ik maak een aantal foto’s en ruwe schetsen. Als we het eens worden over de sterke en zwakke punten van uw tuin, stellen we samen een programma van eisen op.
+    4. We zijn nu in de voorontwerpfase: uw nieuwe tuin wordt geschetst, waarin uw wensen tot uitdrukking komen. Heel vaak is een kadaster kopie van uw grond en huis een goede basis voor de schaal voor het autocad bestand.
+    5. Hierna maak ik een definitief ontwerp. Dit plan geeft in grote lijnen weer waar bomen, struiken heesters, borders, paden en terrassen zullen komen.
+    6. Indien gewenst maak ik samen met U een beplantingsplan.
+    7. Vervolgens kan tot uitvoering van het ontwerp worden overgegaan. Uiteraard bespreken we vóór de tijd wat U eventueel zelf wilt of kunt doen.
 kosten:
   title: Kosten
   subtitle: Iets is duur, als u een miskoop doet of als u iets krijgt, wat U niet

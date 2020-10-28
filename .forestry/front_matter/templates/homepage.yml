@@ -1,0 +1,114 @@
+---
+label: homepage
+hide_body: true
+fields:
+- type: field_group
+  name: introduction
+  label: introduction
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: description
+    label: description
+  - type: text
+    name: btn
+    label: btn
+- type: field_group
+  name: large_image
+  label: large_image
+  fields:
+  - type: file
+    name: src
+    label: src
+- type: field_group
+  name: aanbod
+  label: aanbod
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: subtitle
+    label: subtitle
+  - type: field_group
+    name: tuinen
+    label: tuinen
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: subtitle
+      label: subtitle
+    - type: text
+      name: btn
+      label: btn
+    - type: file
+      name: image
+      label: image
+  - type: field_group
+    name: landgoederen
+    label: landgoederen
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: subtitle
+      label: subtitle
+    - type: text
+      name: btn
+      label: btn
+    - type: file
+      name: image
+      label: image
+  - type: field_group
+    name: openbare_ruimte
+    label: openbare_ruimte
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: subtitle
+      label: subtitle
+    - type: text
+      name: btn
+      label: btn
+    - type: file
+      name: image
+      label: image
+  - type: field_group
+    name: kunst
+    label: kunst
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: subtitle
+      label: subtitle
+    - type: text
+      name: btn
+      label: btn
+    - type: file
+      name: image
+      label: image
+- type: field_group
+  name: call_to_action
+  label: call_to_action
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: subtitle
+    label: subtitle
+  - type: text
+    name: btn
+    label: btn

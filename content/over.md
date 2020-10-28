@@ -19,9 +19,12 @@ achtergrond:
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 werkwijze:
   title: Werkwijze
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  subtitle: Dat wordt het tijd om een tuin -en landschapsdokter in de arm te nemen.
+    Perspectief tuin- & landschapsdokter leidt U door het hele proces van idee en
+    wensen tot realisatie van uw tuindromen.(hoe werkt Perspectief).  Dat kan een
+    totaalplan zijn of een gedeelte van de tuin. Geen tuin van de dokter is een blauwprint
+    voor een andere, want de plek (Genus Loci) is nooit hetzelfde. Uw tuin is uniek
+    en het enige exemplaar met die inrichting.
   image: "/images/IMG_9631.jpg"
   content: |-
     1. Option one

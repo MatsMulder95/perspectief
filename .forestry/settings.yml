@@ -9,19 +9,17 @@ sections:
 - type: document
   path: content/homepage.md
   label: Home Page
-  match: "**/*"
 - type: document
   path: content/over.md
   label: Over
-  match: "**/*"
 - type: document
   path: content/aanbod.md
   label: Aanbod
-  match: "**/*"
 - type: document
-  path: content/contact/md
+  path: content/contact.md
   label: Contact
-  match: "**/*"
+- type: heading
+  label: Collecties
 - type: directory
   path: content/projects
   label: Projecten

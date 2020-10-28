@@ -37,19 +37,18 @@ kosten:
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   image: "/images/IMG_9639.jpg"
-  content: "###### Uurprijs\nAls ontwerper ben je bezig een mooie vertaalslag te maken
-    van een plan in een tweedimensionaal vlak naar een driedimensionale werkelijkheid.
-    In deze virtuele wereld heb je te maken met de ruimte indelen naar een menselijke
-    maat met voornamelijk planten. Deze planten hebben een verticale gelaagdheid (bomen,
-    struiken, vaste planten en bollen) en verschillen in kleur, bloeitijd en textuur.
-    De kleur kan alles bepalend zijn, of ritmisch terug komen in tijd en plaats\n######
-    Tekenopdrachten\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat.\n###### Dagtarief\nLorem ipsum dolor sit amet, consectetur adipiscing
-    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-    ea commodo consequat.\n        "
+  content: |-
+    ###### Uurprijs
+
+    Als ontwerper ben je bezig een mooie vertaalslag te maken van een plan in een tweedimensionaal vlak naar een driedimensionale werkelijkheid. In deze virtuele wereld heb je te maken met de ruimte indelen naar een menselijke maat met voornamelijk planten. Deze planten hebben een verticale gelaagdheid (bomen, struiken, vaste planten en bollen) en verschillen in kleur, bloeitijd en textuur. De kleur kan alles bepalend zijn, of ritmisch terug komen in tijd en plaats
+
+    ###### Tekenopdrachten
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+    ###### Dagtarief
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 call_to_action:
   title: Ook een project?
   subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

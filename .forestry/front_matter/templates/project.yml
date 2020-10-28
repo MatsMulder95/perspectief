@@ -28,5 +28,6 @@ fields:
   name: image
   label: Project Afbeelding
 pages:
+- content/projects/testproject1.md
 - content/projects/testproject2.md
 - content/projects/testproject4.md

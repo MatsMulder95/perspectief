@@ -8,16 +8,16 @@ fields:
   fields:
   - type: text
     name: name
-    label: name
+    label: Bedrijfsnaam
   - type: text
     name: title
-    label: title
+    label: Pagina Titel
   - type: textarea
     name: description
-    label: description
+    label: Pagina Omschrijving
   - type: text
     name: btn
-    label: btn
+    label: Button
 - type: field_group
   name: large_image
   label: large_image
@@ -31,13 +31,13 @@ fields:
   fields:
   - type: text
     name: title
-    label: title
+    label: Sectie Titel
   - type: textarea
     name: subtitle
-    label: subtitle
+    label: Sectie Omschrijving
   - type: field_group
     name: tuinen
-    label: tuinen
+    label: Informatie Tuinen
     fields:
     - type: text
       name: title
@@ -53,7 +53,7 @@ fields:
       label: image
   - type: field_group
     name: landgoederen
-    label: landgoederen
+    label: Informatie Landgoederen
     fields:
     - type: text
       name: title
@@ -69,7 +69,7 @@ fields:
       label: image
   - type: field_group
     name: openbare_ruimte
-    label: openbare_ruimte
+    label: Informatie Openbare Ruimte
     fields:
     - type: text
       name: title
@@ -85,7 +85,7 @@ fields:
       label: image
   - type: field_group
     name: kunst
-    label: kunst
+    label: Informatie Kunst
     fields:
     - type: text
       name: title
@@ -101,7 +101,7 @@ fields:
       label: image
 - type: field_group
   name: call_to_action
-  label: call_to_action
+  label: 'Call to action: neem contact op'
   fields:
   - type: text
     name: title

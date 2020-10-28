@@ -1,0 +1,63 @@
+---
+label: contact
+hide_body: true
+fields:
+- type: field_group
+  name: introduction
+  label: introduction
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: subtitle
+    label: subtitle
+- type: field_group
+  name: large_image
+  label: large_image
+  fields:
+  - type: file
+    name: src
+    label: src
+- type: field_group
+  name: form
+  label: form
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: subtitle
+    label: subtitle
+  - type: file
+    name: image
+    label: image
+- type: field_group
+  name: contact
+  label: contact
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: subtitle
+    label: subtitle
+  - type: file
+    name: image
+    label: image
+  - type: textarea
+    name: content
+    label: content
+- type: field_group
+  name: call_to_action
+  label: call_to_action
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: subtitle
+    label: subtitle
+  - type: text
+    name: btn
+    label: btn

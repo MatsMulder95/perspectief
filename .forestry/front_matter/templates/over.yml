@@ -34,6 +34,10 @@ fields:
   - type: textarea
     name: content
     label: Sectie Inhoud
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
   label: Achtergrond
 - type: field_group
   name: werkwijze

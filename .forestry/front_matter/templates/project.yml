@@ -2,22 +2,6 @@
 label: Project
 hide_body: true
 fields:
-- name: type
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - tuinen
-    - landgoederen
-    - openbare ruimte
-    - kunst
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Type Project
 - type: text
   name: title
   label: Project Titel

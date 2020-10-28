@@ -28,9 +28,9 @@ tuinen:
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 landgoederen:
   title: Landgoederen
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  subtitle: Het kan ook zijn dat een landgoed heeft gekocht inclusief  weides,  houtwallen,
+    bospercelen, maar geen raad weet met de wirwar van subsidies en overheidsmaatregelen.
+    De landheer wil een nieuw beheers- of inrichtingsplan over tuin en bos.
   content: |-
     ###### Zomertuinen
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

@@ -1,7 +1,22 @@
 <template>
   <div>
+
     <Introduction :content="aanbod"></Introduction>
     <LargeImage :src="aanbod.large_image.src" style="margin-top: 20vh"></LargeImage>
+    <div class="bg-blue">
+
+      <ProjectBlock :content="aanbod.tuinen" :projects="tuin_projects"></ProjectBlock>
+
+      <ProjectBlock :content="aanbod.landgoederen" :projects="tuin_projects"></ProjectBlock>
+
+      <ProjectBlock :content="aanbod.openbaar" :projects="tuin_projects"></ProjectBlock>
+
+      <ProjectBlock :content="aanbod.kunst" :projects="tuin_projects"></ProjectBlock>
+
+    </div>
+
+    <CallAction :content="aanbod.call_to_action" style="margin-top: 15vh; padding-bottom: 15vh"></CallAction>
+
   </div>
 
 </template>
@@ -9,14 +24,21 @@
 <script>
     import Introduction from "../../components/Introduction";
     import LargeImage from "../../components/LargeImage";
+    import ProjectBlock from "../../components/ProjectBlock";
     export default {
-        components: {LargeImage, Introduction},
+        components: {ProjectBlock, LargeImage, Introduction},
         colorMode: 'blue',
-        async asyncData({$content}) {
-            const aanbod = await $content('aanbod').fetch()
+        async asyncData({$content, params}) {
+            const tuin_projects = await $content('projects', params.slug).where({type:'tuin'}).fetch();
+            const aanbod = await $content('aanbod').fetch();
+
             return {
-                aanbod,
+                tuin_projects,
+                aanbod
             }
+        },
+        mounted() {
+            loadCarousel();
         },
         transition: {
             leave: function (el, done) {
@@ -30,6 +52,7 @@
                 holder.style.marginLeft = '0';
             },
             enter: function (el, done) {
+
                 const holder = document.getElementById('page-transition-holder');
                 holder.addEventListener("transitionend", popOneTimeAlert);
                 function popOneTimeAlert() {
@@ -38,6 +61,7 @@
                     holder.style.marginLeft = '100vw';
                     done()
                 }
+
                 holder.style.marginLeft = '-100vw'
             }
         }
@@ -48,5 +72,19 @@
   div >>> .large-image-back{
     background-color: #AFC2C6;
   }
+
+  div >>> .btn-small{
+    background-color: #DB0D86!important;
+    color: white!important;
+  }
+
+  div >>> #shadow {
+    height: 0px;
+  }
+
+  .ProjectBlock{
+    padding-bottom: 25vh;
+  }
+
 </style>
 

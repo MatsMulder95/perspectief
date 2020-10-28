@@ -11,18 +11,18 @@
       </div>
     </div>
     <div v-if="left" class="row mt-5">
-      <div class="col-4 image-holder">
+      <div class="col-12 col-md-4 image-holder">
         <div style="right: 0" class="color-back"><div :style="{ backgroundImage: `url(${ content.image })` }" class="image image-left"></div></div>
       </div>
-      <div class="col-8 content-holder content-left">
+      <div class="col-12 col-md-8 content-holder content-left">
         <slot>This is the default content if nothing gets specified to go here</slot>
       </div>
     </div>
     <div v-else class="row mt-5">
-      <div class="col-8 content-holder">
+      <div class="col-12 col-md-8 content-holder">
         <slot>This is the default content if nothing gets specified to go here</slot>
       </div>
-      <div class="col-4 image-holder">
+      <div class="col-12 col-md-4 image-holder">
         <div  class="color-back"><div :style="{ backgroundImage: `url(${ content.image })` }" class="image"></div></div>
       </div>
     </div>
@@ -49,7 +49,7 @@
 
   .content-holder{
     background-color: var(--main-color);
-    padding: 5rem 8rem 5rem 5rem;
+    padding: 4rem 8rem 4rem 4rem;
   }
 
   .image-holder{
@@ -83,7 +83,7 @@
   }
 
   .content-left{
-    padding: 5rem 5rem 5rem 8rem;
+    padding: 4rem 4rem 4rem 8rem;
   }
 
 </style>

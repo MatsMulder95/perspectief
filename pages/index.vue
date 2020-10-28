@@ -2,20 +2,15 @@
   <div>
 
     <!-- INTRO -->
-      <div class="container" style="padding-top: 15vh">
+      <div class="container">
         <div class="row">
           <div class="col-12">
-            <h5 class="darkblue">{{ homepage.introduction.name }}</h5>
-            <h1 class="darkblue">{{ homepage.introduction.title }}</h1>
+            <h5 style="margin-left: -15px" class="darkblue">{{ homepage.introduction.name }}</h5>
+            <Introduction :content="introduction_content"></Introduction>
+            <nuxt-link to="/over"><button type="button" class="btn mt-4 bg-pink">{{ homepage.introduction.btn }}</button></nuxt-link>
           </div>
         </div>
-        <div class="row">
-          <div class="col-8">
-            <h4 class="darkblue" style="font-size: 1.2rem; ">{{ homepage.introduction.description }}</h4>
 
-          </div>
-        </div>
-        <nuxt-link to="/over"><button type="button" class="btn mt-4 bg-pink">{{ homepage.introduction.btn }}</button></nuxt-link>
       </div>
 
     <!-- Large Image -->
@@ -62,13 +57,23 @@
   import LargeImage from "../components/LargeImage";
   import ProjectHolder from "../components/ProjectHolder";
   import CallAction from "../components/CallAction";
+  import Introduction from "../components/Introduction";
   export default {
       colorMode: 'grey',
-      components: {CallAction, ProjectHolder, LargeImage},
+      components: {Introduction, CallAction, ProjectHolder, LargeImage},
       async asyncData({$content}) {
           const homepage = await $content('homepage').fetch()
           return {
               homepage,
+          }
+      },
+      created() {
+          this.introduction_content = {
+            introduction: {
+                title: this.homepage.introduction.title,
+                subtitle: this.homepage.introduction.description,
+            },
+
           }
       },
       transition: {
@@ -104,7 +109,12 @@
   }
 
   h1{
-    margin-top: -2rem;
+    margin-top: -1rem;
+  }
+
+  .introduction{
+    padding: 0;
+    margin-top: -1rem;
   }
 
 

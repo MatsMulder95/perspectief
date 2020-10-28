@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
     <nuxt-link to="/" class="navbar-brand">
-      <img src="~/assets/logo.png" alt="">
+      <img src="/logo_png.png" alt="logo pespectief" id="logo">
     </nuxt-link>
     <div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,6 +66,10 @@
 
   .nuxt-link-exact-active {
     font-weight: 900;
+  }
+
+  #logo{
+    max-height: 250px;
   }
 
 </style>

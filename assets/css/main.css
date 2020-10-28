@@ -9,6 +9,7 @@
 
 .yellow-mode {
   --bg: #FFFBEC;
+  --main-color: #FFF7CD;
 }
 
 .blue-mode {
@@ -18,6 +19,11 @@
 @font-face {
   font-family: 'Great Vibes';
   src: url('~assets/fonts/GreatVibes-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'vivaldi';
+  src: url('~assets/fonts/vivaldi2.ttf') format('truetype');
 }
 
 body {
@@ -140,13 +146,13 @@ h3 {
 
 h4 {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.1rem;
 }
 
 h5 {
-  font-family: "Great Vibes";
-  font-size: 3.5rem;
+  font-family: vivaldi;
+  font-size: 4rem;
 }
 
 h6 {
@@ -182,8 +188,9 @@ h6 {
 
 .btn:hover {
   background-color: #153243;
-  box-shadow: inset 400px 0 0 0 #153243;
+  box-shadow: inset 400px 0 0 1px #153243;
   color: white!important;
+
 }
 
 .btn:hover:after {

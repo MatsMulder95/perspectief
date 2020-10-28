@@ -11,8 +11,30 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'OwlCarousel/owl.carousel.min.css'},
+      { rel: 'stylesheet', href: 'OwlCarousel/owl.theme.default.min.css'},
+
+    ],
+    script: [
+
+      {
+        src: "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      },
+      {
+        src: "https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.3/umd/popper.min.js"
+      },
+      {
+        src: "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+      },
+
+      {
+        src: 'test.js',
+      },
+      {
+        src: "OwlCarousel/owl.carousel.min.js"
+      },
+    ],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)

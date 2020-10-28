@@ -1,5 +1,5 @@
 <template>
-  <div class="container" style="margin-top: 10vh">
+  <div class="container introduction">
     <div class="row">
       <div class="col-12">
         <h1 style="white-space: pre-wrap;" class="darkblue"><span class="underline" style="white-space: pre-wrap;">{{ titleFirstPart }}</span>{{ titleLastPart }}</h1>

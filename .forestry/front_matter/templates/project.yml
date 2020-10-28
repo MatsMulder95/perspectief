@@ -27,3 +27,5 @@ fields:
       file: 
       path: 
   label: Type Project
+pages:
+- content/projects/testproject2.md

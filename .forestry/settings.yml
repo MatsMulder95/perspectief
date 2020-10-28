@@ -19,10 +19,31 @@ sections:
   path: content/contact.md
   label: Contact
 - type: heading
-  label: Collecties
-- type: directory
-  path: content/projects
   label: Projecten
+- type: directory
+  path: content/projects/tuinen
+  label: Tuinen
+  create: documents
+  match: "**/*"
+  templates:
+  - project
+- type: directory
+  path: content/projects/landgoederen
+  label: Landgoederen
+  create: documents
+  match: "**/*"
+  templates:
+  - project
+- type: directory
+  path: content/projects/openbaar
+  label: Openbare Ruimte
+  create: documents
+  match: "**/*"
+  templates:
+  - project
+- type: directory
+  path: content/projects/kunst
+  label: Kunst
   create: documents
   match: "**/*"
   templates:

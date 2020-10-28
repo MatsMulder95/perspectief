@@ -4,79 +4,79 @@ hide_body: true
 fields:
 - type: field_group
   name: introduction
-  label: introduction
+  label: Pagina Introductie
   fields:
   - type: text
     name: title
-    label: title
+    label: Pagina Titel
   - type: textarea
     name: subtitle
-    label: subtitle
+    label: Pagina Omschrijving
 - type: field_group
   name: large_image
-  label: large_image
+  label: Pagina Afbeelding
   fields:
   - type: file
     name: src
     label: src
 - type: field_group
   name: achtergrond
-  label: achtergrond
   fields:
   - type: text
     name: title
-    label: title
+    label: Sectie Titel
   - type: textarea
     name: subtitle
-    label: subtitle
+    label: Sectie Omschrijving
   - type: file
     name: image
-    label: image
+    label: Sectie Afbeelding
   - type: textarea
     name: content
-    label: content
+    label: Sectie Inhoud
+  label: Achtergrond
 - type: field_group
   name: werkwijze
-  label: werkwijze
+  label: Werkwijze
   fields:
   - type: text
     name: title
-    label: title
+    label: Sectie Titel
   - type: textarea
     name: subtitle
-    label: subtitle
+    label: Sectie Omschrijving
   - type: file
     name: image
-    label: image
+    label: Sectie Afbeelding
   - type: text
     name: content
-    label: content
+    label: Sectie Inhoud
 - type: field_group
   name: kosten
-  label: kosten
+  label: Kosten
   fields:
   - type: text
     name: title
-    label: title
+    label: Sectie Titel
   - type: textarea
     name: subtitle
-    label: subtitle
+    label: Sectie Omschrijving
   - type: file
     name: image
-    label: image
+    label: Sectie Afbeelding
   - type: textarea
     name: content
-    label: content
+    label: Sectie Inhoud
 - type: field_group
   name: call_to_action
-  label: call_to_action
+  label: 'Call to action: neem contact op'
   fields:
   - type: text
     name: title
-    label: title
+    label: Titel
   - type: textarea
     name: subtitle
-    label: subtitle
+    label: Omschrijving
   - type: text
     name: btn
-    label: btn
+    label: Button

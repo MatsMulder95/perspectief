@@ -7,11 +7,11 @@
 
       <ProjectBlock :content="aanbod.tuinen" :projects="tuin_projects"></ProjectBlock>
 
-      <ProjectBlock :content="aanbod.landgoederen" :projects="tuin_projects"></ProjectBlock>
+      <ProjectBlock :content="aanbod.landgoederen" :projects="landgoederen_projects"></ProjectBlock>
 
-      <ProjectBlock :content="aanbod.openbaar" :projects="tuin_projects"></ProjectBlock>
+      <ProjectBlock :content="aanbod.openbaar" :projects="openbaar_projects"></ProjectBlock>
 
-      <ProjectBlock :content="aanbod.kunst" :projects="tuin_projects"></ProjectBlock>
+      <ProjectBlock :content="aanbod.kunst" :projects="kunst_projects"></ProjectBlock>
 
     </div>
 
@@ -30,11 +30,17 @@
         colorMode: 'blue',
         async asyncData({$content}) {
             const tuin_projects = await $content('projects/tuinen').fetch();
+            const landgoederen_projects = await $content('projects/landgoederen').fetch();
+            const openbaar_projects = await $content('projects/openbaar').fetch();
+            const kunst_projects = await $content('projects/kunst').fetch();
             const aanbod = await $content('aanbod').fetch();
 
             return {
                 tuin_projects,
-                aanbod
+                landgoederen_projects,
+                openbaar_projects,
+                kunst_projects,
+                aanbod,
             }
         },
         mounted() {

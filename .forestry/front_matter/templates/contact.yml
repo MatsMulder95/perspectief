@@ -65,3 +65,5 @@ fields:
   - type: text
     name: btn
     label: Button
+pages:
+- content/contact.md

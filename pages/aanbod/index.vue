@@ -28,8 +28,8 @@
     export default {
         components: {ProjectBlock, LargeImage, Introduction},
         colorMode: 'blue',
-        async asyncData({$content, params}) {
-            const tuin_projects = await $content('projects', params.slug).where({type:'tuin'}).fetch();
+        async asyncData({$content}) {
+            const tuin_projects = await $content('projects/tuinen').fetch();
             const aanbod = await $content('aanbod').fetch();
 
             return {

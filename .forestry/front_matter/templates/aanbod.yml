@@ -1,0 +1,86 @@
+---
+label: aanbod
+hide_body: true
+fields:
+- type: field_group
+  name: introduction
+  label: introduction
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: subtitle
+    label: subtitle
+- type: field_group
+  name: large_image
+  label: large_image
+  fields:
+  - type: file
+    name: src
+    label: src
+- type: field_group
+  name: tuinen
+  label: tuinen
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: subtitle
+    label: subtitle
+  - type: textarea
+    name: content
+    label: content
+- type: field_group
+  name: landgoederen
+  label: landgoederen
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: subtitle
+    label: subtitle
+  - type: textarea
+    name: content
+    label: content
+- type: field_group
+  name: openbaar
+  label: openbaar
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: subtitle
+    label: subtitle
+  - type: textarea
+    name: content
+    label: content
+- type: field_group
+  name: kunst
+  label: kunst
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: subtitle
+    label: subtitle
+  - type: textarea
+    name: content
+    label: content
+- type: field_group
+  name: call_to_action
+  label: call_to_action
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: subtitle
+    label: subtitle
+  - type: text
+    name: btn
+    label: btn

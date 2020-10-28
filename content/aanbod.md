@@ -70,17 +70,9 @@ kunst:
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   content: |-
-    ###### Zomertuinen
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Ontwerpen is al kunst, maar een kunstobject in een tuin of openbare ruimte kan een extra dimensie aan een plek. Ik heb een aantal projecten gewerkt, waar een kunstobject deel uit kan maken van het geheel. Zo geven de Corte stalen schermen met uitsparingen gebaseerd op een print van Esscher een Nederlands tintje aan rustplaats aan de Loire. Tevens heeft het een praktische functie om ongehinderd en beschermd vogels te spotten op de zandbanken van de rivier.
 
-    ###### Wintertuinen
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-    ###### Kindertuinen
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-    ###### Onderhuisvrije Tuinen
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Een zitbank kan deel uit maken van een hele serie op plaatsen waar het er toe doet. De wijngaard van de Landman had een blikvanger nodig aan de weg. Hiervoor kan en kunstobject dienst doen.
 call_to_action:
   title: Ook een project?
   subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

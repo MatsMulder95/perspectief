@@ -3,7 +3,30 @@ new_page_extension: md
 auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
-sections: 
+sections:
+- type: heading
+  label: Pagina's
+- type: document
+  path: content/homepage.md
+  label: Home Page
+  match: "**/*"
+- type: document
+  path: content/over.md
+  label: Over
+  match: "**/*"
+- type: document
+  path: content/aanbod.md
+  label: Aanbod
+  match: "**/*"
+- type: document
+  path: content/contact/md
+  label: Contact
+  match: "**/*"
+- type: directory
+  path: content/projects
+  label: Projecten
+  create: documents
+  match: "**/*"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''

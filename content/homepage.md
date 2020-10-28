@@ -3,8 +3,8 @@ introduction:
   name: Perspectief
   title: Tuin- en landschapsdokter
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cofnsequat.
+    tempor incididunt ut labore et dolore magna aliqua. Utd enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cofnsequat.
   btn: Meer over perspectief
 large_image:
   src: "/images/ernst_tuin.jpg"

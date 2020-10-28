@@ -21,7 +21,7 @@
             <label for="FormMessage">Bericht</label>
             <textarea required class="form-control" id="FormMessage" rows="5"></textarea>
           </div>
-          <button type="button" class="btn mt-2 bg-pink">Vestuur</button>
+          <button type="submit" class="btn mt-2 bg-pink">Vestuur</button>
         </form>
 
       </ContentBlock>

@@ -11,3 +11,5 @@ fields:
 - type: file
   name: image
   label: Project Afbeelding
+pages:
+- content/projects/tuinen/diepenveen-opknap.md

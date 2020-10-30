@@ -22,24 +22,24 @@
             <div class="col-12">
               <h2 class="yellow">{{ homepage.aanbod.title }}</h2>
             </div>
-            <div class="col-9">
+            <div class="col-12 col-md-9">
               <h4 class="text-white">{{ homepage.aanbod.subtitle }}</h4>
             </div>
           </div>
 
             <div class="row mt-5">
-              <div class="col-6">
+              <div class="col-12 col-lg-6">
                 <ProjectHolder :content="homepage.aanbod.tuinen" link="/aanbod#tuinen"></ProjectHolder>
               </div>
-              <div class="col-6">
+              <div class="col-12 col-lg-6">
                 <ProjectHolder :content="homepage.aanbod.landgoederen" link="/aanbod#landgoederen"></ProjectHolder>
               </div>
             </div>
           <div class="row mt-5">
-              <div class="col-6">
+              <div class="col-12 col-lg-6">
                 <ProjectHolder :content="homepage.aanbod.openbare_ruimte" link="/aanbod#openbare-ruimte"></ProjectHolder>
               </div>
-              <div class="col-6">
+              <div class="col-12 col-lg-6">
                 <ProjectHolder :content="homepage.aanbod.kunst" link="/aanbod#kunst"></ProjectHolder>
               </div>
             </div>

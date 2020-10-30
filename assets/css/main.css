@@ -129,13 +129,13 @@ p{
 h1 {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
-  font-size: 5rem;
+  font-size: 8vh;
 }
 
 h2 {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 8vh;
 }
 
 h3 {
@@ -146,13 +146,13 @@ h3 {
 
 h4 {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1.1rem;
 }
 
 h5 {
   font-family: vivaldi;
-  font-size: 4rem;
+  font-size: 5vh;
 }
 
 h6 {

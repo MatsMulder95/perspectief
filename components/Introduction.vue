@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-8">
+      <div class="col-12 col-md-8">
         <h4 class="darkblue" style="font-size: 1.2rem; ">{{ content.introduction.subtitle }}</h4>
       </div>
     </div>

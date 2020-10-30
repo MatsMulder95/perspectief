@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="col-9">
+      <div class="col-12 col-md-9">
         <h4 class="darkblue">{{ content.subtitle }}</h4>
       </div>
     </div>

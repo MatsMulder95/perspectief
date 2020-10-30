@@ -38,12 +38,13 @@
 
   .navbar{
     align-items: normal;
+    padding: 25px;
   }
   .nav-link{
     font-family: 'Open Sans', sans-serif;
     color: #DB0D86 !important;
     position: relative;
-    margin-left: 1rem;
+    margin-left: 10px;
     font-weight: 400;
   }
 

@@ -22,7 +22,7 @@ function loadCarousel(){
   document.getElementsByClassName('owl-nav').forEach(function (el) {
     el.style.position = 'absolute';
     el.style.width = '100%';
-  })
+  });
   document.getElementsByClassName('owl-nav').forEach(function (el) {
     el.style.position = 'absolute';
     el.style.width = '100%';
@@ -31,3 +31,4 @@ function loadCarousel(){
     })
   })
 }
+

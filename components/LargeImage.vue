@@ -24,6 +24,21 @@
     position: relative;
   }
 
+  @media only screen and (max-width: 575px) {
+    #image-holder{
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    #image-holder{
+      max-width: 540px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
   .container-fluid{
     padding: 0;
     position: relative;

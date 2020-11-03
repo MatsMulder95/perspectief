@@ -41,19 +41,20 @@
     padding: 25px;
   }
   .nav-link{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #DB0D86 !important;
     position: relative;
     margin-left: 10px;
     font-weight: 400;
+    transition: all 0.3s ease-in-out;
   }
 
   .nav-link:before {
     content: "";
     position: absolute;
     width: 0;
-    height: 2px;
-    bottom: 0;
+    height: 1px;
+    bottom: 5px;
     left: 0;
     background-color: #DB0D86;
     visibility: hidden;
@@ -66,11 +67,18 @@
   }
 
   .nuxt-link-exact-active {
-    font-weight: 900;
+    font-weight: 700;
   }
 
   #logo{
-    max-height: 250px;
+    max-height: 20vh;
+    -webkit-transition: ease-out 200ms;
+    -moz-transition: ease-out 200ms;
+    transition: ease-out 200ms;
+  }
+
+  #logo:hover{
+    transform: rotate(-5deg);
   }
 
 </style>

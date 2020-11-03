@@ -5,9 +5,9 @@
         <h1 style="white-space: pre-wrap;" class="darkblue"><span class="underline" style="white-space: pre-wrap;">{{ titleFirstPart }}</span>{{ titleLastPart }}</h1>
       </div>
     </div>
-    <div class="row">
+    <div class="row mt-1">
       <div class="col-12 col-md-8">
-        <h4 class="darkblue" style="font-size: 1.2rem; ">{{ content.introduction.subtitle }}</h4>
+        <h4 class="darkblue">{{ content.introduction.subtitle }}</h4>
       </div>
     </div>
   </div>
@@ -35,8 +35,14 @@
 
 <style scoped>
   .underline {
-    border-bottom: 2px solid currentColor;
+    border-bottom: 4px solid currentColor;
     display: inline-block;
     line-height: 0.85;
   }
+
+  h4{
+    font-weight: 400;
+    font-size: 2vh;
+  }
+
 </style>

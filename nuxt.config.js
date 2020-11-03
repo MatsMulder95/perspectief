@@ -35,6 +35,9 @@ export default {
         src: "OwlCarousel/owl.carousel.min.js"
       },
       {
+        src: "particles.js"
+      },
+      {
         src: 'rough.js'
       }
     ],
@@ -69,5 +72,23 @@ export default {
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
   },
-
+  pageTransition: {
+    name: 'my-page',
+    mode: 'out-in',
+    appear: true,
+    beforeLeave: function (el) {
+      $("#page-transition-holder").css({"marginLeft": '100vw'});
+    },
+    enter: function (el, done) {
+      $("#page-transition-holder").animate({marginLeft: '-100vw'},"slow",
+        function () {
+          done()
+        });
+    },
+    leave: function (el, done) {
+      $("#page-transition-holder").animate({marginLeft: '0'},"slow", function () {
+        done()
+      });
+    },
+  }
 }

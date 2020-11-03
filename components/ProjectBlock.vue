@@ -1,22 +1,23 @@
 <template>
   <div class="ProjectBlock">
-    <div class="container">
-      <div class="row" align="center">
-        <div class="col-12 pt-5">
-          <h2 class="yellow">{{ content.title }}</h2>
+
+    <div class="draw container bg-lightblue">
+      <div class="row"  align="center">
+        <div class="col-12 pt-5 mt-2">
+          <h2 class="pink">{{ content.title }}</h2>
         </div>
       </div>
       <div class="row justify-content-center" align="center">
-        <div class="col-9">
+        <div class="col-12 col-md-9">
           <h4 class="darkblue">{{ content.subtitle }}</h4>
         </div>
       </div>
-      <div class="row bg-lightblue mt-3">
+      <div class="row">
         <div v-html="info" class="col-12 two-column-content" ></div>
       </div>
-      <div class="row bg-lightblue pb-3">
+      <div class="row pb-3">
         <div class="col-12" align="center">
-          <h3 style="font-size: 2rem">Bekijk onze recente projecten:</h3>
+          <h3 style="font-size: 1.8rem">Bekijk onze recente projecten:</h3>
         </div>
       </div>
 
@@ -38,8 +39,6 @@
     </div>
     <div class="container bg-lightblue" style="height: 75px"></div>
     <div class="container bg-darkblue pt-3"></div>
-
-
 
   </div>
 </template>
@@ -64,14 +63,19 @@
           }
 
       },
+      mounted() {
+
+      }
 
   }
 </script>
 
 <style scoped>
   .two-column-content{
-    column-count: 2;
-    padding: 4rem;
+    -webkit-columns: 2 400px;
+    -moz-columns: 2 400px;
+    columns: 2 400px;
+    padding: 7vh;
   }
 
   #color-container{

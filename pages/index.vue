@@ -5,9 +5,9 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h5 style="margin-left: -15px" class="darkblue">{{ homepage.introduction.name }}</h5>
+            <h5 style="margin-left: -10px" class="darkblue">{{ homepage.introduction.name }}</h5>
             <Introduction :content="introduction_content"></Introduction>
-            <nuxt-link to="/over"><button type="button" class="btn mt-4 bg-pink">{{ homepage.introduction.btn }}</button></nuxt-link>
+            <nuxt-link to="/over"><button type="button" class="btn mt-3 bg-pink">{{ homepage.introduction.btn }}</button></nuxt-link>
           </div>
         </div>
 
@@ -76,29 +76,6 @@
 
           }
       },
-      transition: {
-          leave: function (el, done) {
-              const holder = document.getElementById('page-transition-holder');
-              holder.classList.add('page-animation');
-              holder.addEventListener("transitionend", popOneTimeAlert);
-              function popOneTimeAlert() {
-                  holder.removeEventListener("transitionend", popOneTimeAlert);
-                  done()
-              }
-              holder.style.marginLeft = '0';
-          },
-          enter: function (el, done) {
-              const holder = document.getElementById('page-transition-holder');
-              holder.addEventListener("transitionend", popOneTimeAlert);
-              function popOneTimeAlert() {
-                  holder.removeEventListener("transitionend", popOneTimeAlert);
-                  holder.classList.remove('page-animation');
-                  holder.style.marginLeft = '100vw';
-                  done()
-              }
-              holder.style.marginLeft = '-100vw'
-          }
-      }
 
   }
 </script>

@@ -40,7 +40,7 @@
 <style scoped>
   .social-logo {
     margin: 5px;
-    width: 50px;
+    width: 45px;
     transition: all .1s ease-in-out;
   }
 
@@ -51,11 +51,16 @@
 
   h2{
     margin-top: -1rem;
-    font-size: 3rem;
+    font-size: 5vh;
   }
 
   h5{
     font-size: 2rem;
+    margin-left: -5px;
+  }
+
+  p{
+    font-size: 1.7vh;
   }
 
 </style>

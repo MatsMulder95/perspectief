@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="project-holder">
     <div id="image-holder" :style="{ backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.44) 29.17%, rgba(0, 0, 0, 0.1) 46.88%, rgba(0, 0, 0, 0.1) 100%), url(${ content.image })` }" align="left">
       <div id="text-holder">
         <h3 class="text-white">{{ content.title }}</h3>

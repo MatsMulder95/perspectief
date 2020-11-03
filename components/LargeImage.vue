@@ -1,8 +1,10 @@
 <template>
   <div class="container-fluid">
+    <div id="border">
     <div class="large-image-back" id="color-holder"></div>
     <div :style="{ backgroundImage: `url(${ src })` }" id="image-holder"></div>
-    <div style="height: 15vh" class="large-image-back"></div>
+    <div style="height: 20vh" class="large-image-back"></div>
+    </div>
   </div>
 
 </template>
@@ -10,7 +12,12 @@
 <script>
   export default {
       name: 'large-image',
-      props: ['src']
+      props: ['src'],
+      mounted() {
+
+
+
+      }
   }
 </script>
 
@@ -21,7 +28,7 @@
     background-position: center;
     background-size: cover;
     height: 75vh;
-    position: relative;
+    position: relative
   }
 
   @media only screen and (max-width: 575px) {

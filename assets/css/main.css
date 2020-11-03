@@ -122,52 +122,13 @@ body {
   background-color: #C1BCA8
 }
 
-p{
-  font-family: 'Open Sans', sans-serif;
-}
-
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
-  font-size: 8vh;
-}
-
-h2 {
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
-  font-size: 8vh;
-}
-
-h3 {
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
-  font-size: 2.5rem;
-}
-
-h4 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 1.1rem;
-}
-
-h5 {
-  font-family: vivaldi;
-  font-size: 5vh;
-}
-
-h6 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 1rem;
-}
-
 .btn {
   padding: 15px 30px 15px 30px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: white;
   border: none;
   border-radius: 0;
-  font-size: 1rem;
+  font-size: 1.5vh;
   cursor: pointer;
   display: inline-block;
   font-weight: 500;
@@ -177,6 +138,8 @@ h6 {
   -moz-transition: ease-out 0.3s;
   transition: ease-out 0.3s;
 }
+
+
 
 .btn:after {
   margin-left: 10px;
@@ -212,5 +175,4 @@ h6 {
   -moz-transition: ease-out 500ms;
   transition: ease-out 500ms;
 }
-
 

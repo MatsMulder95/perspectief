@@ -54,29 +54,6 @@
         created () {
             this.contact_content = md.render(this.contact.contact.content)
         },
-        transition: {
-            leave: function (el, done) {
-                const holder = document.getElementById('page-transition-holder');
-                holder.classList.add('page-animation');
-                holder.addEventListener("transitionend", popOneTimeAlert);
-                function popOneTimeAlert() {
-                    holder.removeEventListener("transitionend", popOneTimeAlert);
-                    done()
-                }
-                holder.style.marginLeft = '0';
-            },
-            enter: function (el, done) {
-                const holder = document.getElementById('page-transition-holder');
-                holder.addEventListener("transitionend", popOneTimeAlert);
-                function popOneTimeAlert() {
-                    holder.removeEventListener("transitionend", popOneTimeAlert);
-                    holder.classList.remove('page-animation');
-                    holder.style.marginLeft = '100vw';
-                    done()
-                }
-                holder.style.marginLeft = '-100vw'
-            }
-        }
     }
 </script>
 

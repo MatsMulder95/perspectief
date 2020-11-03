@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container content-block">
     <div class="row" align="center">
       <div class="col-12">
         <h2 class="yellow">{{ content.title }}</h2>
@@ -45,13 +45,9 @@
 </script>
 
 <style scoped>
-  h4 {
-    font-weight: bold;
-  }
-
   .content-holder{
     background-color: var(--main-color);
-    padding: 4rem 8rem 4rem 4rem;
+    padding: 7vh 8vh 7vh 7vh;
   }
 
   .image-holder{
@@ -73,19 +69,37 @@
     background-position: center;
     position: absolute;
     width: 105%;
-    top: 2rem;
-    bottom: 2rem;
-    right: 2rem;
+    top: 1rem;
+    bottom: 1rem;
+    right: 1rem;
     z-index: 20;
   }
 
   .image-left{
-    left: 2rem;
+    left: 1rem;
     right: 0;
   }
 
   .content-left{
-    padding: 4rem 4rem 4rem 8rem;
+    padding: 7vh 7vh 7vh 8vh;
   }
+
+  @media only screen and (max-width: 575px) {
+    .image-holder{
+      height: 50vh;
+    }
+    .color-back{
+      top: 0;
+      height: 100%;
+    }
+
+    .image{
+      width: 100%;
+      height: 100%;
+      top:0;
+      left: 0;
+  }
+  }
+
 
 </style>

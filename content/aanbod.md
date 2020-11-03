@@ -8,55 +8,44 @@ large_image:
   src: "/images/sfeer5.jpg"
 tuinen:
   title: Tuinen
-  subtitle: Heeft U dat nou ook in uw tuin, dat al die planten staan als een individu,
-    zonder enige samenhang. Dat U eigenlijk wel een perkje in de tuin wil aanleggen,
-    maar geen idee heeft wat voor planten er in moeten.  Heeft U het gevoel dat de
-    struiken en bomen de leiding over de tuin nemen. Het onkruid de baas wordt over
-    uw borders. Heeft u dat nou ook dat de vijver eens zo leuk aangelegd, overwoekerd
-    is.
+  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
   content: |-
-    Perspectief tuin- & landschapsdokter heeft een groot kenmerk: ontwerpen naar de plek (**Genus Loci).** Uw tuin is uniek en het enige exemplaar. Een grote of kleine tuin heeft dezelfde moeilijkheidsgraad. Het gaat er als klant om welke beleving U wilt hebben. Er zijn wel algemene regels:
+    ###### Lorem ipsum dolor
 
-    ###### 1) De menselijke maat
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
 
-    Terrassen en ruimte moeten een kamergevoel geven , een gedeeltelijke beslotenheid en veiligheid
+    ###### Lorem ipsum dolor
 
-    ###### 2) Diepte
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-    Borders op een grote afstand moeten body krijgen, anders zie je er niets van. Borders van nabij hebben detaillering nodig zonder dat het priegelig wordt. Een tuin moet niet in een oogopslag te overzien zijn. Er moeten geheime of spannende ruimtes ontstaan.
+    ###### Lorem ipsum dolor
 
-    ###### 3) Beplanting
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
 
-    Het liefst moet een tuin zó ingericht zijn dat er het hele groeiseizoen iets bloeit. De kleuren moeten worden afgewisseld, maar ook de textuur van de plant. De groeiplaats speelt ook nog een rol , licht, schaduw, zand of klei.
+    ###### Lorem ipsum dolor
 
-    De zoektocht naar het gewenste resultaat voor Uw buitenruimte wordt beschreven in “hoe werkt Perspectief”.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
 landgoederen:
   title: Landgoederen
-  subtitle: Het kan ook zijn dat een landgoed heeft gekocht inclusief  weides,  houtwallen,
-    bospercelen, maar geen raad weet met de wirwar van subsidies en overheidsmaatregelen.
-    De landheer wil een nieuw beheers- of inrichtingsplan over tuin en bos.
+  subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. '
   content: |-
-    Bij het ontwerpen van een herinrichting van een oud landgoed of een totaal nieuwe zijn er altijd 5 belangrijke punten, die in het programma van eisen moeten opgenomen. Deze punten wil hieronder bespreken.
+    ###### Lorem ipsum dolor
 
-    ###### Historisch perspectief met familieachtergrond
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
 
-    Een oud landgoed heeft een geschiedenis. Heel vaak zijn er in de archieven nog landschapsontwerpen terug te vinden. Deze ontwerpen hadden ook een architect met een bepaalde stijl, die paste in die periode. Na 1880 met de uitvinding van de camera, zij er vaak foto’s terug te vinden van de tuin. De eigenaren kunnen er voor kiezen om die sfeer met die planting weer terug te brengen bij een tuin- renovatie. Het meest moeilijke is om de periode vast te stellen, waaraan gerefereerd wordt. Niets is zo veranderlijk dan een tuin en vaak zijn er over de jaren meerdere ontwerpen. Toch wordt er meestal gekozen voor een modern ontwerp met een oogwenk naar het verleden. Dat is ook wel voorstelbaar, immers de bomen zijn uitgegroeid tot woudreuzen en daaronder is vaak niets meer te planten en de paden zijn destijds ingericht voor rijtuigen en paarden en niet voor auto’s en landbouwmachines. Wat betreft het plantassortiment is er veel meer keuze dan vroeger.
+    ###### Lorem ipsum dolor
 
-    Het landgoed heeft een plek in het landschap
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-    Naast de tuin rondom het huis heeft een landgoed nog een aantal hectare weide of landbouwgrond met bijpassende singels, bosjes, en houtwallen. De tuin moet niet vloeken met de omliggende cultuurgronden, maar moet samen tot een eenheid komen, waarin zichtlijnen naar eik-punten worden gecreëerd.
+    ###### Lorem ipsum dolor
 
-    ###### De oude gebouwen krijgen vaak een nieuwe bestemming
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
 
-    De oude boerderijen en de stallen krijgen vaak een nieuwe inrichting. Boerderijen worden omgetoverd tot luxe kantoorpanden of woonhuizen. Paardenstallen worden opgedoekt of verbouwd tot woonhuizen voor een familieleden. De nieuwe bewoners moeten makkelijk toegang krijgen tot hun pand met een aantal parkeerplaatsen met een terras en uitzicht. Daarvoor moet in het overal plan rekening mee worden gehouden.
+    ###### Lorem ipsum dolor
 
-    ###### Het onderhoud moet te betalen zijn
-
-    Een groot stuk grond vergt onderhoud. De tijd van meerdere tuinmannen is helaas voorbij. Het ontwerp moet dus zo ingericht zijn dat de eigenaar geen slaaf wordt van zijn eigen landgoed. Gelukkig zijn er wel landbouwwerktuigen en tuinmachines die het werk kunnen verlichten, maar dan nog moet het ontwerp afgestemd worden op het beheer.
-
-    ###### Overheidssubsidie, wetten en bepalingen.
-
-    Een landgoed kan in aanmerking komen voor overheidssubsidies, wat betreft de aanplant voor een tuinrenovatie, restauratie werkzaamheden, maar er zijn ook rood voor rood regelingen, pakketten voor het beheer voor weide gronden houtwallen en poelen. Het ontwerp dient hier rekening mee te houden.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
 openbaar:
   title: Openbare Ruimte
   subtitle: Uzelf op een plein, steeg of winkelstraat staat, en zegt; “ hier mis iets”!

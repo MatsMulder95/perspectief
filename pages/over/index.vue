@@ -16,9 +16,7 @@
       </ContentBlock>
 
     </div>
-
     <CallAction :content="over.call_to_action" link="/contact" style="margin-top: 15vh; padding-bottom: 15vh"></CallAction>
-
   </div>
 
 </template>
@@ -28,9 +26,10 @@
     import LargeImage from "../../components/LargeImage";
     import ContentBlock from "../../components/ContentBlock";
     import MarkdownIt from 'markdown-it'
+    import CallAction from "../../components/CallAction";
     const md = new MarkdownIt();
     export default {
-        components: {ContentBlock, LargeImage, Introduction},
+        components: {CallAction, ContentBlock, LargeImage, Introduction},
         colorMode: 'green',
         async asyncData({$content}) {
             const over = await $content('over').fetch()

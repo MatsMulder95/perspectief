@@ -32,6 +32,7 @@
 
     </div>
     <CallAction :content="contact.call_to_action" link="/aanbod" style="margin-top: 15vh; padding-bottom: 15vh"></CallAction>
+
   </div>
 </template>
 
@@ -40,9 +41,10 @@
     import LargeImage from "../../components/LargeImage";
     import ContentBlock from "../../components/ContentBlock";
     import MarkdownIt from 'markdown-it'
+    import CallAction from "../../components/CallAction";
     const md = new MarkdownIt();
     export default {
-        components: {ContentBlock, LargeImage, Introduction},
+        components: {CallAction, ContentBlock, LargeImage, Introduction},
         colorMode: 'yellow',
 
         async asyncData({$content}) {

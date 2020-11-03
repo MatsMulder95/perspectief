@@ -14,17 +14,20 @@
             <p>info@tuinenlandschapsdokter.nl</p>
           </div>
         </div>
+
+
         <div style="position: relative" class="col-12 col-md-2 mt-5 mt-md-0 ml-2 ml-md-0">
           <div class="row" style="position: absolute; bottom: 0">
-            <a class="column">
+            <div class="column">
               <a href="https://www.linkedin.com/in/ernst-lohle-98452821/" target="_blank"><img class="social-logo" src="~assets/linkedin.png"></a>
-            </a>
-            <a class="column">
+            </div>
+            <div class="column">
               <a href="https://www.facebook.com/lohleakk" target="_blank"><img class="social-logo" src="~assets/facebook.png"></a>
-            </a>
+            </div>
           </div>
-
         </div>
+
+
       </div>
     </div>
   </div>

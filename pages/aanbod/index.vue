@@ -5,6 +5,7 @@
     <LargeImage :src="aanbod.large_image.src" style="margin-top: 20vh"></LargeImage>
     <div class="bg-blue">
 
+
       <ProjectBlock id="tuinen" :content="aanbod.tuinen" :projects="tuin_projects"></ProjectBlock>
 
       <ProjectBlock id="landgoederen" :content="aanbod.landgoederen" :projects="landgoederen_projects"></ProjectBlock>
@@ -12,6 +13,7 @@
       <ProjectBlock id="openbare-ruimte" :content="aanbod.openbaar" :projects="openbaar_projects"></ProjectBlock>
 
       <ProjectBlock id="kunst" :content="aanbod.kunst" :projects="kunst_projects"></ProjectBlock>
+
 
     </div>
 
@@ -25,8 +27,9 @@
     import Introduction from "../../components/Introduction";
     import LargeImage from "../../components/LargeImage";
     import ProjectBlock from "../../components/ProjectBlock";
+    import CallAction from "../../components/CallAction";
     export default {
-        components: {ProjectBlock, LargeImage, Introduction},
+        components: {CallAction, ProjectBlock, LargeImage, Introduction},
         colorMode: 'blue',
         async asyncData({$content}) {
             const tuin_projects = await $content('projects/tuinen').fetch();

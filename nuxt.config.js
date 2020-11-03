@@ -29,16 +29,16 @@ export default {
       },
 
       {
-        src: 'test.js',
+        src: '/test.js',
       },
       {
-        src: "OwlCarousel/owl.carousel.min.js"
+        src: "/OwlCarousel/owl.carousel.min.js"
       },
       {
-        src: "particles.js"
+        src: "/particles.js"
       },
       {
-        src: 'rough.js'
+        src: '/rough.js'
       }
     ],
   },

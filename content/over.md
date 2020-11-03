@@ -33,12 +33,8 @@ achtergrond:
     worden projecten ook uitgevoerd."
 werkwijze:
   title: Werkwijze
-  subtitle: Dat wordt het tijd om een tuin -en landschapsdokter in de arm te nemen.
-    Perspectief tuin- & landschapsdokter leidt U door het hele proces van idee en
-    wensen tot realisatie van uw tuindromen.(hoe werkt Perspectief).  Dat kan een
-    totaalplan zijn of een gedeelte van de tuin. Geen tuin van de dokter is een blauwprint
-    voor een andere, want de plek (Genus Loci) is nooit hetzelfde. Uw tuin is uniek
-    en het enige exemplaar met die inrichting.
+  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
   image: "/images/IMG_9631.jpg"
   content: |-
     Bij grote veranderingen en aanleg van een tuin, merk ik dat vele opdrachtgevers niet goed weten wat ze kunnen verwachten. Hoe gaat een opdracht in zijn werk?
@@ -52,10 +48,8 @@ werkwijze:
     7. Vervolgens kan tot uitvoering van het ontwerp worden overgegaan. Uiteraard bespreken we vóór de tijd wat U eventueel zelf wilt of kunt doen.
 kosten:
   title: Kosten
-  subtitle: Iets is duur, als u een miskoop doet of als u iets krijgt, wat U niet
-    wil. Dat is bij Perspectief nooit het geval, immers uw wensen worden vertaald  en
-    op papier gezet. De tekening is de leidraad voor de inrichting en de kostenbegroting  voor
-    exploitatie, die volgens vaste  standaardprijzen worden berekend.
+  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
   image: "/images/IMG_9639.jpg"
   content: |-
     ###### Uurprijs

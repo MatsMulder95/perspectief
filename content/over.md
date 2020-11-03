@@ -9,8 +9,7 @@ large_image:
 achtergrond:
   title: Mijn Achtergrond
   subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    tempor incididunt ut labore et dolore magna aliqua.
   image: "/images/IMG_9642.jpg"
   content: "###### Achtergrond\n\nNa mijn afgeronde studie Tropical Crop Science heb
     ik 12 jaar in de tropen gewerkt, o.a. als landbouwkundig adviseur. Bij terugkeer

@@ -40,7 +40,7 @@
       "random": true,
       "anim": {
         "enable": true,
-        "speed": 5,
+        "speed": 10,
         "size_min": 0.1,
         "sync": false
       }
@@ -54,7 +54,7 @@
     },
     "move": {
       "enable": true,
-      "speed": 0.4,
+      "speed": 0.8,
       "direction": "none",
       "random": false,
       "straight": false,
@@ -68,7 +68,7 @@
     }
   },
   "interactivity": {
-    "detect_on": "canvas",
+    "detect_on": "window",
     "events": {
       "onhover": {
         "enable": true,
@@ -76,7 +76,7 @@
       },
       "onclick": {
         "enable": false,
-        "mode": "push"
+        "mode": "bubble"
       },
       "resize": true
     },
@@ -88,18 +88,18 @@
         }
       },
       "bubble": {
-        "distance": 400,
-        "size": 40,
+        "distance": 200,
+        "size":10,
         "duration": 2,
-        "opacity": 8,
-        "speed": 3
+        "opacity": 0.3,
+        "speed": 1
       },
       "repulse": {
-        "distance": 200,
-        "duration": 0.4
+        "distance": 100,
+        "duration": 1
       },
       "push": {
-        "particles_nb": 4
+        "particles_nb": 2
       },
       "remove": {
         "particles_nb": 2

@@ -5,6 +5,7 @@
     <div class="bg-darkyellow">
       <ContentBlock :content="contact.form"  style="padding-bottom: 25vh">
         <form name="contact" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact">
           <div class="form-group">
             <label for="FormName">Naam</label>
             <input required type="text" class="form-control" id="FormName">

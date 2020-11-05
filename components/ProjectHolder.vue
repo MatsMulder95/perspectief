@@ -1,10 +1,10 @@
 <template>
   <div class="project-holder">
     <div id="image-holder" :style="{ backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.44) 29.17%, rgba(0, 0, 0, 0.1) 46.88%, rgba(0, 0, 0, 0.1) 100%), url(${ content.image })` }" align="left">
-      <div id="text-holder">
+      <div id="text-holder" >
         <h3 class="text-white">{{ content.title }}</h3>
         <p class="text-white">{{ content.subtitle }}</p>
-        <nuxt-link :to="link"><button type="button" class="btn btn-small mt-3 bg-yellow darkblue">Bekijk Projecten</button></nuxt-link>
+        <nuxt-link class="project-link" :to="link"><button type="button" class="btn btn-small mt-3 bg-yellow darkblue">Bekijk Projecten</button></nuxt-link>
       </div>
     </div>
     <div class="bg-lightgrey" id="shadow"></div>
@@ -37,8 +37,12 @@
   }
 
   #text-holder{
+
     padding: 2rem;
     position: absolute;
     bottom: 0;
   }
+
+
+
 </style>

@@ -25,7 +25,7 @@
     <div class="container-fluid">
 
       <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-12 col-xl-10">
           <div class="owl-carousel owl-theme">
             <div v-for="project in projects" class="item">
               <ProjectHolder :content="project" link="/contact"></ProjectHolder>

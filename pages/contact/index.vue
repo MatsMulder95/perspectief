@@ -4,24 +4,28 @@
     <LargeImage :src="contact.large_image.src" style="margin-top: 20vh"></LargeImage>
     <div class="bg-darkyellow">
       <ContentBlock :content="contact.form"  style="padding-bottom: 25vh">
-        <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-          <input type="hidden" name="form-name" value="contact">
-          <div class="form-group">
-            <label for="FormName">Naam</label>
-            <input required type="text" class="form-control" id="FormName">
-          </div>
-          <div class="form-group">
-            <label for="FormEmail">Email address</label>
-            <input required type="email" class="form-control" id="FormEmail">
-          </div>
-          <div class="form-group">
-            <label for="FormNumber">Telefoonnummer</label>
-            <input required type="number" class="form-control" id="FormNumber">
-          </div>
-          <div class="form-group">
-            <label for="FormMessage">Bericht</label>
-            <textarea required class="form-control" id="FormMessage" rows="5"></textarea>
-          </div>
+
+       <form id="my-form" action="/thank-you" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+
+
+         <input type="hidden" name="form-name" value="contact">
+         <div class="form-group">
+           <label for="FormName">Naam</label>
+           <input required type="text" class="form-control" id="FormName">
+         </div>
+         <div class="form-group">
+           <label for="FormEmail">Email address</label>
+           <input required type="email" class="form-control" id="FormEmail">
+         </div>
+         <div class="form-group">
+           <label for="FormNumber">Telefoonnummer</label>
+           <input required type="number" class="form-control" id="FormNumber">
+         </div>
+         <div class="form-group">
+           <label for="FormMessage">Bericht</label>
+           <textarea required class="form-control" id="FormMessage" rows="5"></textarea>
+         </div>
+
           <button type="submit" class="btn mt-2 bg-pink">Vestuur</button>
         </form>
 
@@ -41,6 +45,7 @@
     import Introduction from "../../components/Introduction";
     import LargeImage from "../../components/LargeImage";
     import ContentBlock from "../../components/ContentBlock";
+    import ContactForm from "../../components/ContactForm";
     import MarkdownIt from 'markdown-it'
     import CallAction from "../../components/CallAction";
     const md = new MarkdownIt();

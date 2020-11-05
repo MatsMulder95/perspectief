@@ -4,7 +4,7 @@
     <LargeImage :src="contact.large_image.src" style="margin-top: 20vh"></LargeImage>
     <div class="bg-darkyellow">
       <ContentBlock :content="contact.form"  style="padding-bottom: 25vh">
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="contact">
           <div class="form-group">
             <label for="FormName">Naam</label>

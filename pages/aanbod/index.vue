@@ -1,6 +1,20 @@
 <template>
   <div>
+    <!--
+    <div class="project-focus-holder">
+        <div class="row">
+          <div class="col-12 col-md-8 project-focus-image-holder">
+            <div class="project-focus-image"></div>
+          </div>
+          <div class="col-12 col-md-4">
+            <h1>hoi</h1>
+          </div>
 
+        </div>
+
+
+    </div>
+    -->
     <Introduction :content="aanbod"></Introduction>
     <LargeImage :src="aanbod.large_image.src" style="margin-top: 20vh"></LargeImage>
     <div class="bg-blue">
@@ -16,7 +30,6 @@
 
 
     </div>
-
     <CallAction :content="aanbod.call_to_action" link="/contact" style="margin-top: 15vh; padding-bottom: 15vh"></CallAction>
 
   </div>
@@ -28,8 +41,9 @@
     import LargeImage from "../../components/LargeImage";
     import ProjectBlock from "../../components/ProjectBlock";
     import CallAction from "../../components/CallAction";
+    import ContentBlock from "~/components/ContentBlock";
     export default {
-        components: {CallAction, ProjectBlock, LargeImage, Introduction},
+        components: {ContentBlock, CallAction, ProjectBlock, LargeImage, Introduction},
         colorMode: 'blue',
         async asyncData({$content}) {
             const tuin_projects = await $content('projects/tuinen').fetch();
@@ -47,6 +61,7 @@
             }
         },
         mounted() {
+
             loadCarousel();
         },
     }
@@ -62,13 +77,39 @@
     color: white!important;
   }
 
-  div >>> #shadow {
-    height: 0px;
-  }
+
 
   .ProjectBlock{
     padding-bottom: 25vh;
   }
+
+  .project-focus-holder{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 150;
+    top: 0;
+    background-color: rgba(0,0,0,0.75);
+  }
+
+  .project-focus-holder .row{
+    height: 100%;
+    padding: 5%;
+    margin: 0;
+  }
+
+  .project-focus-image{
+    background-image: url("/images/example_image.jpg");
+    background-size: cover;
+    height: 100%;
+    margin: 15px;
+  }
+
+  .project-focus-image-holder{
+    background-color: #153243;
+    padding: 0;
+  }
+
 
 </style>
 

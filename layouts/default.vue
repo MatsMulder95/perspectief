@@ -11,6 +11,8 @@
 <script>
     import PageHeader from "../components/PageHeader";
     import PageFooter from "../components/PageFooter";
+
+
     export default {
         components: {PageFooter, PageHeader},
         link: [
@@ -20,9 +22,10 @@
             }
         ],
         mounted() {
-            particlesJS.load('particles-js', 'particles.json', function() {
+            particlesJS.load('particles-js', '/particles.json', function() {
                 console.log('callback - particles.js config loaded');
             });
+
         }
 
     }
@@ -107,7 +110,7 @@
   h6 {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
 

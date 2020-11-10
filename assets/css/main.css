@@ -179,3 +179,12 @@ body {
 #logo-rotation{
   transform-origin: 45% 23%;
 }
+
+.two-column-content p{
+  padding: 0 15px 0 15px;
+}
+
+
+.two-column-content h6{
+  padding: 0 15px 0 15px;
+}

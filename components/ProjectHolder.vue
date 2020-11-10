@@ -7,7 +7,9 @@
         <nuxt-link class="project-link" :to="link"><button type="button" class="btn btn-small mt-3 bg-yellow darkblue">Bekijk Projecten</button></nuxt-link>
       </div>
     </div>
+    <!--
     <div class="bg-lightgrey" id="shadow"></div>
+    -->
   </div>
 
 </template>
@@ -29,6 +31,7 @@
     padding-top: 75%;
     background-position: center;
     background-size: cover;
+    height: 100%;
   }
 
   #shadow{
@@ -43,6 +46,10 @@
     bottom: 0;
   }
 
+  .project-holder{
+    padding: 10px;
+    border: solid 2px var(--bg);
+  }
 
 
 </style>

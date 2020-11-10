@@ -4,6 +4,7 @@ function loadCarousel(){
     dots: false,
     nav:true,
     margin:20,
+    autoHeight : true,
     responsive:{
       0:{
         items:1
@@ -53,6 +54,7 @@ function drawBackground(el, fill, fillWeight, fillStyle, bowing, stroke, strokeW
   el.style.background = 'url('+canvas.toDataURL()+')';
 }
 
+/*
 function rotateLogo() {
   var $elem = $("#logo-rotation");
 
@@ -69,13 +71,12 @@ function rotateLogo() {
   });
 
 }
+*/
 
-$("#my-form").submit(funcgit tion(e) {
-  e.preventDefault();
-
-  var $form = $(this);
-  $.post($form.attr("action"), $form.serialize()).then(function() {
-    alert("Thank you!");
+function rotateLogo(){
+  anime({
+    targets: [document.getElementById('logo')],
+    translateX: 250
   });
-});
+}
 

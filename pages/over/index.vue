@@ -3,17 +3,17 @@
     <Introduction :content="over"></Introduction>
     <LargeImage :src="over.large_image.src" style="margin-top: 15vh"></LargeImage>
     <div class="bg-green">
-      <ContentBlock :content="over.achtergrond"  style="padding-bottom: 25vh">
+      <ContentBlockWide :content="over.achtergrond" left  style="padding-bottom: 20vh">
         <div class="darkblue" v-html="achtergrond_content"></div>
-      </ContentBlock>
+      </ContentBlockWide>
 
-      <ContentBlock :content="over.werkwijze" left style="padding-bottom: 25vh">
+      <ContentBlockWide :content="over.werkwijze" left style="padding-bottom: 20vh">
         <div class="darkblue"  v-html="achtergrond_werkwijze"></div>
-      </ContentBlock>
+      </ContentBlockWide>
 
-      <ContentBlock :content="over.kosten"  style="padding-bottom: 20vh">
+      <ContentBlockWide :content="over.kosten" left style="padding-bottom: 20vh">
         <div  v-html="achtergrond_kosten"></div>
-      </ContentBlock>
+      </ContentBlockWide>
 
     </div>
     <CallAction :content="over.call_to_action" link="/contact" style="margin-top: 15vh; padding-bottom: 15vh"></CallAction>
@@ -27,9 +27,10 @@
     import ContentBlock from "../../components/ContentBlock";
     import MarkdownIt from 'markdown-it'
     import CallAction from "../../components/CallAction";
+    import ContentBlockWide from "@/components/ContentBlockWide";
     const md = new MarkdownIt();
     export default {
-        components: {CallAction, ContentBlock, LargeImage, Introduction},
+        components: {ContentBlockWide, CallAction, ContentBlock, LargeImage, Introduction},
         colorMode: 'green',
         async asyncData({$content}) {
             const over = await $content('over').fetch()

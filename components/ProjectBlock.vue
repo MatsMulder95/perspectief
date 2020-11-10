@@ -1,91 +1,156 @@
 <template>
   <div class="ProjectBlock">
 
-    <div class="draw container bg-lightblue">
-      <div class="row"  align="center">
-        <div class="col-12 pt-5 mt-2">
-          <h2 class="pink">{{ content.title }}</h2>
+    <div class="container border-container">
+      <div class="bg-lightblue">
+        <div class="row justify-content-center"  align="center">
+          <div class="col-12 pt-5">
+            <h2 class="pink">{{ content.title }}</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center" align="center">
+          <div class="col-12 col-md-9">
+            <h4 class="darkblue">{{ content.subtitle }}</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div v-html="info" class="col-12 two-column-content"></div>
+        </div>
+        <div class="row pb-5">
+          <div class="col-12" align="center">
+            <h3 style="font-size: 1.8rem">Bekijk onze recente projecten:</h3>
+          </div>
         </div>
       </div>
-      <div class="row justify-content-center" align="center">
-        <div class="col-12 col-md-9">
-          <h4 class="darkblue">{{ content.subtitle }}</h4>
-        </div>
-      </div>
-      <div class="row">
-        <div v-html="info" class="col-12 two-column-content" ></div>
-      </div>
-      <div class="row pb-3">
-        <div class="col-12" align="center">
-          <h3 style="font-size: 1.8rem">Bekijk onze recente projecten:</h3>
-        </div>
-      </div>
+    </div>
 
-  </div>
-    <div class="container-fluid">
+    <div class="container-fluid" style="margin-top: -5vh">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-11 col-xl-9">
+          <div :id="content.title" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div v-for="(project, index) in projects" class="carousel-item" :class="{ 'active': index === 0 }">
+                    <div class="row">
+                      <div class="col-12 col-md-8 project-image" :style="{ backgroundImage: `url(${ project.image })` }" >
 
+                      </div>
+                      <div class="col-12 col-md-4 bg-darkblue p-5">
+                        <h3 class="lightblue">{{ project.title }}</h3>
+                        <p class="lightblue">{{ project.subtitle }}</p>
+                      </div>
+                    </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" :href="'#'+content.title" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" :href="'#'+content.title" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--
+    <div class="container-fluid" style="margin-top: -5vh">
       <div class="row justify-content-center">
         <div class="col-12 col-xl-10">
           <div class="owl-carousel owl-theme">
             <div v-for="project in projects" class="item">
-              <ProjectHolder :content="project" link="/contact"></ProjectHolder>
+                <ProjectHolder :content="project" link="/contact"></ProjectHolder>
             </div>
           </div>
-
-
         </div>
-
       </div>
     </div>
-    <div class="container bg-lightblue" style="height: 75px"></div>
-    <div class="container bg-darkblue pt-3"></div>
+
+    <div class="container bg-lightblue" style="padding: 0 15px 15px 15px; margin-top: -2px">
+      <div class="border-container" style="height: 75px"></div>
+    </div>
+    -->
+
+
 
   </div>
 </template>
 
 <script>
-  import MarkdownIt from 'markdown-it'
-  import ProjectHolder from "./ProjectHolder";
-  const md = new MarkdownIt();
-  export default {
-      name: 'project-block',
-      components: {ProjectHolder},
-      props: {
-          content: Object,
-          projects: Array,
-      },
-      created() {
-          this.info = md.render(this.content.content);
-          this.example_project = {
-              title: 'Tuin in Diepenveeen',
-              subtitle: "een mooi project hoor",
-              image: '/images/example_image.jpg',
-          }
+import MarkdownIt from 'markdown-it'
+import ProjectHolder from "./ProjectHolder";
+const md = new MarkdownIt();
+export default {
+  name: 'project-block',
+  components: {ProjectHolder},
+  props: {
+    content: Object,
+    projects: Array,
+  },
+  created() {
+    this.info = md.render(this.content.content);
+    this.example_project = {
+      title: 'Tuin in Diepenveeen',
+      subtitle: "een mooi project hoor",
+      image: '/images/example_image.jpg',
+    }
 
-      },
-      mounted() {
-
-      }
+  },
+  mounted() {
 
   }
+
+}
 </script>
 
 <style scoped>
-  .two-column-content{
-    -webkit-columns: 2 400px;
-    -moz-columns: 2 400px;
-    columns: 2 400px;
-    padding: 7vh;
-  }
+.two-column-content{
+  -webkit-columns: 2 400px;
+  -moz-columns: 2 400px;
+  columns: 2 400px;
+  padding: 3vw 4vw 3vw 4vw;
+}
 
-  #color-container{
-    height: 100%;
-    position: absolute;
-  }
 
-  .owl-nav{
-    background-color: transparent!important;
-  }
 
+#color-container{
+  height: 100%;
+  position: absolute;
+}
+
+.owl-nav{
+  background-color: transparent!important;
+}
+
+.border-container{
+  border: solid 2px var(--bg);
+  padding: 10px;
+}
+
+.project-holder{
+  height: 400px;
+}
+
+.project-image{
+  background-size: cover;
+  background-position: center;
+  height: 55vh;
+}
+
+.carousel-control-prev{
+  left: -10%;
+}
+
+.carousel-control-next{
+  right: -10%;
+}
+
+@media only screen and (max-width: 767px) {
+  .project-image{
+    height: 40vh;
+  }
+}
 
 </style>

@@ -3,7 +3,7 @@
     <Introduction :content="contact"></Introduction>
     <LargeImage :src="contact.large_image.src" style="margin-top: 20vh"></LargeImage>
     <div class="bg-darkyellow">
-      <ContentBlock :content="contact.form"  style="padding-bottom: 25vh">
+      <ContentBlockWide left :content="contact.form"  style="padding-bottom: 25vh">
 
        <form id="my-form" action="/thank-you" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
 
@@ -29,11 +29,11 @@
           <button type="submit" class="btn mt-2 bg-pink">Vestuur</button>
         </form>
 
-      </ContentBlock>
+      </ContentBlockWide>
 
-      <ContentBlock left :content="contact.contact" style="padding-bottom: 15vh">
+      <ContentBlockWide left :content="contact.contact" style="padding-bottom: 15vh">
         <div v-html="contact_content"></div>
-      </ContentBlock>
+      </ContentBlockWide>
 
     </div>
     <CallAction :content="contact.call_to_action" link="/aanbod" style="margin-top: 15vh; padding-bottom: 15vh"></CallAction>
@@ -45,12 +45,12 @@
     import Introduction from "../../components/Introduction";
     import LargeImage from "../../components/LargeImage";
     import ContentBlock from "../../components/ContentBlock";
-    import ContactForm from "../../components/ContactForm";
     import MarkdownIt from 'markdown-it'
     import CallAction from "../../components/CallAction";
+    import ContentBlockWide from "@/components/ContentBlockWide";
     const md = new MarkdownIt();
     export default {
-        components: {CallAction, ContentBlock, LargeImage, Introduction},
+        components: {ContentBlockWide, CallAction, ContentBlock, LargeImage, Introduction},
         colorMode: 'yellow',
 
         async asyncData({$content}) {
@@ -69,5 +69,7 @@
   div >>> .large-image-back{
     background-color: #C1BCA8;
   }
+
+  
 </style>
 

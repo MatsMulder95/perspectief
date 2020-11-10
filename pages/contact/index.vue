@@ -9,26 +9,23 @@
 
 
          <input type="hidden" name="form-name" value="contact">
-         <div class="form-group">
-           <label for="FormName">Naam
+
+         <p class="form-group">
+           <label for="FormName">Naam</label>
            <input required type="text" class="form-control" id="FormName">
-           </label>
-         </div>
-         <div class="form-group">
-           <label for="FormEmail">Email address
+         </p>
+         <p class="form-group">
+           <label for="FormEmail">Email address</label>
            <input required type="email" class="form-control" id="FormEmail">
-           </label>
-         </div>
-         <div class="form-group">
-           <label for="FormNumber">Telefoonnummer
+         </p>
+         <p class="form-group">
+           <label for="FormNumber">Telefoonnummer</label>
            <input required type="number" class="form-control" id="FormNumber">
-           </label>
-         </div>
-         <div class="form-group">
-           <label for="FormMessage">Bericht
+         </p>
+         <p class="form-group">
+           <label for="FormMessage">Bericht</label>
            <textarea required class="form-control" id="FormMessage" rows="5"></textarea>
-           </label>
-         </div>
+         </p>
 
           <button type="submit" class="btn mt-2 bg-pink">Vestuur</button>
 

@@ -9,24 +9,30 @@
 
 
          <input type="hidden" name="form-name" value="contact">
-         <p>
-           <label>Your Name: <input type="text" name="name" /></label>
-         </p>
-         <p>
-           <label>Your Email: <input type="email" name="email" /></label>
-         </p>
-         <p>
-           <label>Your Role: <select name="role[]" multiple>
-             <option value="leader">Leader</option>
-             <option value="follower">Follower</option>
-           </select></label>
-         </p>
-         <p>
-           <label>Message: <textarea name="message"></textarea></label>
-         </p>
-         <p>
-           <button type="submit">Send</button>
-         </p>
+         <div class="form-group">
+           <label for="FormName">Naam
+           <input required type="text" class="form-control" id="FormName">
+           </label>
+         </div>
+         <div class="form-group">
+           <label for="FormEmail">Email address
+           <input required type="email" class="form-control" id="FormEmail">
+           </label>
+         </div>
+         <div class="form-group">
+           <label for="FormNumber">Telefoonnummer
+           <input required type="number" class="form-control" id="FormNumber">
+           </label>
+         </div>
+         <div class="form-group">
+           <label for="FormMessage">Bericht
+           <textarea required class="form-control" id="FormMessage" rows="5"></textarea>
+           </label>
+         </div>
+
+          <button type="submit" class="btn mt-2 bg-pink">Vestuur</button>
+
+
         </form>
 
       </ContentBlockWide>

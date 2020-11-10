@@ -11,20 +11,17 @@
          <input type="hidden" name="form-name" value="contact">
 
          <p>
-           <label for="FormName">Naam</label>
-           <input required type="text" class="form-control" id="FormName">
+           <label >Naam</label>
+           <input required type="text" class="form-control" name="name">
          </p>
          <p>
            <label>Your Email: <input type="email" name="email" /></label>
          </p>
          <p>
-           <label>Your Role: <select name="role[]" multiple>
-             <option value="leader">Leader</option>
-             <option value="follower">Follower</option>
-           </select></label>
+           <label>Your Email:</label><input type="email" name="email" />
          </p>
          <p>
-           <label>Message: <textarea name="message"></textarea></label>
+           <label>Message: <textarea name="message">g</textarea></label>
          </p>
          <p>
            <button type="submit" class="btn mt-2 bg-pink">Send</button>

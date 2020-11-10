@@ -15,13 +15,16 @@
            <input required type="text" class="form-control" name="name">
          </p>
          <p>
-           <label>Your Email: <input type="email" name="email" /></label>
+           <label >Email</label>
+           <input required type="email" class="form-control" name="email">
          </p>
          <p>
-           <label>Your Email:</label><input type="email" name="email" />
+           <label >Telefoon Nummer</label>
+           <input required type="tel" class="form-control" name="phone">
          </p>
          <p>
-           <label>Message: <textarea name="message">g</textarea></label>
+           <label>Message:</label>
+           <textarea class="form-control" name="message">g</textarea>
          </p>
          <p>
            <button type="submit" class="btn mt-2 bg-pink">Send</button>

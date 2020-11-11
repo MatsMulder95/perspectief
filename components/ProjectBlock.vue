@@ -27,7 +27,7 @@
     <div class="container-fluid" style="margin-top: -5vh">
       <div class="row justify-content-center">
         <div class="col-12 col-md-11 col-xl-9">
-          <div :id="content.title" class="carousel slide" data-ride="carousel">
+          <div :id="content.title.replace(/\s/g, '')" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div v-for="(project, index) in projects" class="carousel-item" :class="{ 'active': index === 0 }">
                     <div class="row">
@@ -41,11 +41,11 @@
                     </div>
               </div>
             </div>
-            <a class="carousel-control-prev" :href="'#'+content.title" role="button" data-slide="prev">
+            <a class="carousel-control-prev" :href="'#'+content.title.replace(/\s/g, '')" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" :href="'#'+content.title" role="button" data-slide="next">
+            <a class="carousel-control-next" :href="'#'+content.title.replace(/\s/g, '')" role="button" data-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>

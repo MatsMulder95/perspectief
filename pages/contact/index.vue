@@ -5,7 +5,7 @@
     <div class="bg-darkyellow">
       <ContentBlockWide left :content="contact.form"  style="padding-bottom: 25vh">
 
-       <form id="my-form" action="/thank-you" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+       <form id="my-form" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
 
 
          <input type="hidden" name="form-name" value="contact">
@@ -24,15 +24,12 @@
          </p>
          <p>
            <label>Message:</label>
-           <textarea class="form-control" name="message">g</textarea>
+           <textarea rows="5" class="form-control" name="message">g</textarea>
          </p>
          <p>
-           <button type="submit" class="btn mt-2 bg-pink">Send</button>
+           <button type="submit" class="btn mt-2 bg-pink">Verstuur bericht</button>
          </p>
 
-         <p class="form-group">
-
-         </p>
 
         </form>
 
@@ -69,6 +66,16 @@
         created () {
             this.contact_content = md.render(this.contact.contact.content)
         },
+      mounted() {
+        $("#my-form").submit(function(e) {
+          e.preventDefault();
+
+          var $form = $(this);
+          $.post($form.attr("action"), $form.serialize()).then(function() {
+            alert("Thank you!");
+          });
+        });
+      }
     }
 </script>
 

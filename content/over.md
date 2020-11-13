@@ -10,19 +10,30 @@ achtergrond:
   title: Achtergrond
   subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
-  image: "/images/IMG_9642.jpg"
-  content: |-
-    ###### Achtergrond
-
-    Na mijn afgeronde studie Tropical Crop Science heb ik 12 jaar in de tropen gewerkt, o.a. als landbouwkundig adviseur. Bij terugkeer in Nederland heb ik mijn kennis en vaardigheden aangevuld met een 4 jaar durende studie voor tuin- en landschapsontwerper aan Larenstein. Halverwege mijn studie ben ik mijn bureau begonnen.
-
-    ###### Filosofie
-
-    Als ontwerper ben je bezig een mooie vertaalslag te maken van een plan in een tweedimensionaal vlak naar een driedimensionale werkelijkheid. In deze virtuele wereld heb je te maken met de ruimte indelen naar een menselijke maat met voornamelijk planten. Deze planten hebben een verticale gelaagdheid (bomen, struiken, vaste planten en bollen) en verschillen in kleur, bloeitijd en textuur. De kleur kan alles bepalend zijn, of ritmisch terug komen in tijd en plaats. Een zaak blijft altijd bestaan: een tuin- of landschapsontwerp is altijd.
-
-    ###### Brancheverenigingen
-
-    Perspectief, tuin -en landschapsdokter, begeleidt zelf ook projecten en is aangesloten bij de Vereniging van Hoveniers en Groenvoorzieners (VHG). Volgens de normen van VHG worden projecten ook uitgevoerd.
+  image: "/images/unnamed.jpg"
+  content: "###### Achtergrond\n\nNa mijn afgeronde studie Tropical Crop Science in
+    Wageningen, heb ik 12 jaar op verschillende projecten in de tropen gewerkt, o.a.
+    als landbouwkundig adviseur. Bij terugkeer in Nederland heb ik kennis en vaardigheden
+    uitgebreid met een studie tuin- en landschapsontwerper aan Larenstein. Halverwege
+    mijn studie, in 2005, ben ik Perspectief begonnen. Inmiddels heb ik ruim 15 jaar
+    ervaring op het gebied van tuinen, landgoederen, openbare ruimte en kunst.\n\n######
+    Filosofie\n\nIk zie tuin- en landschapsonwerp als **een uniek stukje levendige
+    kunst.** Daarbij ben je als ontwerper bezig een vertaalslag te maken van een plan
+    in een tweedimensionaal vlak naar een driedimensionale werkelijkheid. Binnen deze
+    vertaalslag moeten verschillende keuzes worden gemaakt. Planten hebben een verticale
+    gelaagdheid (bomen, struiken, vaste planten en bollen) en verschillen in kleur,
+    bloeitijd en textuur. De kleur kan alles bepalend zijn, of ritmisch terug komen
+    in tijd en plaats. De begrenzingen van ruimtes kunnen semi transparant of solide
+    zijn, zoals pergola’s, hekken, heggen, aarden wallen, bosplantsoen, struikmassa’s
+    of opgekroonde bomen. De ruimte worden ook in een horizontale vlak gevuld met
+    bestrating, semiverharding, gazons of spiegelvijvers. \n\nDe kunst van het ontwerp
+    is om een goede balans te vinden in de wensen van de klant en de artistieke ideeën
+    van de ontwerper. En natuurlijk: voor een acceptabele prijs. \n\n###### Brancheverenigingen\n\nPerspectief
+    is aangesloten bij de Vereniging van Hoveniers en Groenvoorzieners (VHG). Projecten
+    worden uitgevoerd volgens de normen en richtlijnen van de VHG. Daarnaast is Perspectief
+    aangesloten bij de Tuinontwerpersgroep (TOG). Vakgenoten in deze groep delen kennis
+    en inspiratie met elkaar uit om samen het niveau naar een nog hoger niveau te
+    tillen."
 werkwijze:
   title: Werkwijze
   subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

@@ -1,9 +1,9 @@
 ---
 introduction:
   title: Ons Aanbod
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  subtitle: Naast het ontwerp en aanleg van tuinen, heeft Perspectief met een verscheidenheid
+    aan andere projecten, waaronder het onderhoud van landgoederen, de inrichting
+    van openbare ruimte en verscheidene kunst concepten.
 large_image:
   src: "/images/sfeer5.jpg"
 tuinen:

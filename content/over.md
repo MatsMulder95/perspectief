@@ -37,35 +37,27 @@ werkwijze:
   title: Werkwijze
   subtitle: Perspectief leidt u door het hele proces van idee en wensen tot realisatie
     van uw tuindromen.
-  image: "/images/IMG_9631.jpg"
+  image: "/images/kobesachtertuin.jpg"
   content: |-
     ###### 1. Kennismaking
 
-    Tijdens een eerste kennismakingsgesprek probeer ik inzicht te krijgen in uw ideeën over de huidige tuin en uw droomtuin. Het is prettig als U voorbeelden zoals plaatjes of foto’s uit tijdschriften beschikbaar heeft.
+    Tijdens een eerste kennismakingsgesprek probeer ik inzicht te krijgen in uw ideeën over de huidige tuin en uw droomtuin. Vaak is het prettig om te starten vanuit voorbeelden in, bijvoorbeeld, tijdschriften. Eventueel maak ik een kosten begroting voor de volgende stap.
 
-    ###### 2. Programme van eisen
+    ###### 2. Programma van eisen
 
     Uw tuin wordt uitgebreider bekeken en ik maak een aantal foto’s en ruwe schetsen. Als we het eens worden over de sterke en zwakke punten van uw tuin, stellen we samen een programma van eisen op.
 
-    ###### 3. Voorontwerp
+    ###### 3. Ontwerp
 
-    We zijn nu in de voorontwerpfase: uw nieuwe tuin wordt geschetst, waarin uw wensen tot uitdrukking komen. Heel vaak is een kadaster kopie van uw grond en huis een goede basis voor de schaal voor het autocad bestand.
+    Op basis van het programma van eisen maak ik een ontwerp van uw nieuwe tuin. Daarbij zal ik eerst een voorontwerp aanleveren, vaak op basis van een uittreksel van het kadaster. Daarna maak ik een definitief ontwerp, waarin de details van uw nieuwe tuin te zien zullen zijn.
 
-    ###### 4. Definitief Ontwerp
+    ###### 4. Beplantingsplan
 
-    Hierna maak ik een definitief ontwerp. Dit plan geeft in grote lijnen weer waar bomen, struiken heesters, borders, paden en terrassen zullen komen.
+    Indien gewenst maak ik samen met u een beplantingsplan.
 
-    ###### 5. Ontwerp
+    ###### 5. Uitvoering
 
-    We zijn nu in de voorontwerpfase: uw nieuwe tuin wordt geschetst, waarin uw wensen tot uitdrukking komen. Heel vaak is een kadaster kopie van uw grond en huis een goede basis voor de schaal voor het autocad bestand.
-
-    ###### 6. Beplantingsplan
-
-    Indien gewenst maak ik samen met U een beplantingsplan.
-
-    ###### 7. Uitvoering
-
-    Vervolgens kan tot uitvoering van het ontwerp worden overgegaan. Uiteraard bespreken we vóór de tijd wat U eventueel zelf wilt of kunt doen.
+    Vervolgens kan tot uitvoering van het ontwerp worden overgegaan. Uiteraard bespreken we vóór de tijd wat eventueel zelf zou willen doen.
 kosten:
   title: Kosten
   subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

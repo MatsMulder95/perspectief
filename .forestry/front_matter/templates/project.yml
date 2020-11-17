@@ -12,4 +12,5 @@ fields:
   name: image
   label: Project Afbeelding
 pages:
+- content/projects/tuinen/een-renovatietuin-in-diepenveen.md
 - content/projects/tuinen/een-tuin-in-de-stenen-kamer-in-deventer.md

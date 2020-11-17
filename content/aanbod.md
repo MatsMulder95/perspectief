@@ -5,7 +5,7 @@ introduction:
     aan andere projecten, waaronder het onderhoud van landgoederen, de inrichting
     van openbare ruimte en verscheidene kunst concepten.
 large_image:
-  src: "/images/img_9809.jpg"
+  src: "/images/img_9277.jpg"
 tuinen:
   title: Tuinen
   subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

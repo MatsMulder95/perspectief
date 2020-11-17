@@ -9,7 +9,7 @@ large_image:
 achtergrond:
   title: Achtergrond
   subtitle: Perspectief heeft ruim 15 jaar ervaring op het gebied van tuin- en landschapsontwerp.
-  image: "/images/haha 003.jpg"
+  image: "/images/unnamed.jpg"
   content: "###### Achtergrond\n\nNa mijn afgeronde studie Tropical Crop Science in
     Wageningen, heb ik 12 jaar op verschillende projecten in de tropen gewerkt, o.a.
     als landbouwkundig adviseur. Bij terugkeer in Nederland heb ik kennis en vaardigheden

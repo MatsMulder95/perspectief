@@ -8,11 +8,10 @@ large_image:
   src: "/images/img_9277.jpg"
 tuinen:
   title: Tuinen
-  subtitle: Tuinen bestaan er in allerlei soorten en maten. Toch hanteert Perspectief
-    een aantal basis principes tijdens het ontwerp van iedere tuin.
+  subtitle: 'Perspectief ontwerp naar plek (Genus Loci). Het gaat er daarbij niet
+    om hoe groot of hoe klein uw tuin is - iedere tuin is uniek. Het gaat er als klant
+    om welke beleving u wilt hebben. Er zijn wel eental basis aspecten:'
   content: |-
-    Perspectief hanteert als belangrijkste uitgangspunt ontwerpen naar plek (Genus Loci). Het gaat er daarbij niet om hoe groot of hoe klein uw tuin is - iedere tuin is uniek. Het gaat er als klant om welke beleving u wilt hebben. Er zijn wel eental basis aspecten:
-
     ###### De menselijke maat
 
     Terrassen en ruimte moeten een intiem gevoel geven, een gedeeltelijke beslotenheid en veiligheid.

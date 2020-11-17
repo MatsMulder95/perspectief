@@ -1,9 +1,9 @@
 ---
 introduction:
   title: Over Perspectief
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  subtitle: Perspectief heeft al meer dan 15 jaar ervaring om het gebied van tuin-
+    en landschapsontwerp. Hieronder vind je alle informatie over mijn achtergrond,
+    de werkwijze die ik gebruikelijk hanteer en informatie over kosten en voorwaarden.
 large_image:
   src: "/images/sfeer2.jpg"
 achtergrond:

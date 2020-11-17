@@ -9,7 +9,7 @@ large_image:
 achtergrond:
   title: Achtergrond
   subtitle: Perspectief heeft ruim 15 jaar ervaring op het gebied van tuin- en landschapsontwerp.
-  image: "/images/unnamed.jpg"
+  image: "/images/haha 003.jpg"
   content: "###### Achtergrond\n\nNa mijn afgeronde studie Tropical Crop Science in
     Wageningen, heb ik 12 jaar op verschillende projecten in de tropen gewerkt, o.a.
     als landbouwkundig adviseur. Bij terugkeer in Nederland heb ik kennis en vaardigheden
@@ -35,8 +35,8 @@ achtergrond:
     tillen."
 werkwijze:
   title: Werkwijze
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
+  subtitle: Perspectief leidt u door het hele proces van idee en wensen tot realisatie
+    van uw tuindromen.
   image: "/images/IMG_9631.jpg"
   content: |-
     ###### 1. Kennismaking

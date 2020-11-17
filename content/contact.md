@@ -8,10 +8,9 @@ large_image:
   src: "/images/sfeer3.jpg"
 form:
   title: Neem Contact op
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  image: "/images/IMG_9642.jpg"
+  subtitle: Heeft uw nog andere vragen of bent geïnteresseerd in een kennismakingsgesprek?
+    U kunt contact opnemen doormiddel van het onderstaande formulier.
+  image: "/images/IMG_9631.jpg"
 contact:
   title: Contactgegevens
   subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

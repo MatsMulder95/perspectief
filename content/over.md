@@ -60,8 +60,8 @@ werkwijze:
     Vervolgens kan tot uitvoering van het ontwerp worden overgegaan. Uiteraard bespreken we vóór de tijd wat eventueel zelf zou willen doen.
 kosten:
   title: Kosten
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
+  subtitle: De kosten zijn uiteraard belangrijk. Hieronder vind u een overzicht van
+    mijn tarieven.
   image: "/images/IMG_9639.jpg"
   content: |-
     ###### Uurprijs

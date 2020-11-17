@@ -53,7 +53,7 @@
 <style scoped>
   .content-holder{
     padding: 7vh 8vh 7vh 7vh;
-    border: 1px solid rgba(0,0,0,0.4);
+    border: 1px solid rgba(0,0,0,0.3);
   }
 
   .border-container{

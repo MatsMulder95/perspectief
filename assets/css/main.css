@@ -149,10 +149,6 @@ body {
   transition: ease-out 0.3s;
 }
 
-.loadbtn:after {
-  content: ''
-}
-
 .btn:hover {
   background-color: #153243;
   box-shadow: inset 400px 0 0 1px #153243;
@@ -160,8 +156,22 @@ body {
 
 }
 
+.loadbtn:after {
+  content: ''
+}
+
 .btn:hover:after {
   margin-left: 20px;
+}
+
+.loadbtn:hover {
+  box-shadow: inset 0 0 0 0 #153243;
+  background-color: #DB0D86;
+  cursor: initial;
+}
+
+.loadbtn:hover:after {
+  margin-left: 10px;
 }
 
 .btn-small{

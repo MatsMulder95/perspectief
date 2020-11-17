@@ -13,7 +13,7 @@
     </div>
 
 
-    <div class="row justify-content-center" style="margin-top: 15px">
+    <div class="row justify-content-center" style="margin-top: 20px">
 
       <div class="col-12 col-md-11">
         <div v-if="left" :style="{ backgroundImage: `url(${ content.image })` }"  class="image"></div>
@@ -75,7 +75,7 @@ name: "ContentBlockWide",
 
 .slot{
   width: auto;
-  padding: 52vh 5vh 4vw 5vw;
+  padding: 50vh 4vw 5vh 4vw;
 }
 
 @media only screen and (max-width: 575px) {

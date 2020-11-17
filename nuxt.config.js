@@ -88,6 +88,7 @@ export default {
     },
     leave: function (el, done) {
       $("#page-transition-holder").animate({marginLeft: '0'},"slow", function () {
+        document.getElementById('mobile-nav').style.marginLeft = '100vw';
         done()
       });
     },

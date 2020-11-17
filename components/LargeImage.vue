@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div id="border">
     <div class="large-image-back" id="color-holder"></div>
-    <div :style="{ backgroundImage: `url(${ src })` }" id="image-holder"></div>
+    <div :style="{ backgroundImage: `url(${ src })` }" id="image-holder" class="ml-0 ml-sm-3 ml-md-5 mr-0 mr-md-5 mr-sm-3"></div>
     <div style="height: 20vh" class="large-image-back"></div>
     </div>
   </div>
@@ -23,28 +23,12 @@
 
 <style scoped>
   #image-holder{
-    margin-left: 8%;
-    margin-right: 8%;
     background-position: center;
     background-size: cover;
-    height: 75vh;
-    position: relative
+    height: 85vh;
+    position: relative;
   }
 
-  @media only screen and (max-width: 575px) {
-    #image-holder{
-      margin-left: 15px;
-      margin-right: 15px;
-    }
-  }
-
-  @media only screen and (max-width: 767px) {
-    #image-holder{
-      max-width: 540px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
 
   .container-fluid{
     padding: 0;

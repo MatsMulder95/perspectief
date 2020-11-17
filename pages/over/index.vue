@@ -3,17 +3,17 @@
     <Introduction :content="over"></Introduction>
     <LargeImage :src="over.large_image.src" style="margin-top: 15vh"></LargeImage>
     <div class="bg-green">
-      <ContentBlockWide :content="over.achtergrond" left  style="padding-bottom: 20vh">
+      <ContentBlock :content="over.achtergrond" left  style="padding-bottom: 20vh">
         <div class="darkblue" v-html="achtergrond_content"></div>
-      </ContentBlockWide>
+      </ContentBlock>
 
-      <ContentBlockWide :content="over.werkwijze" left style="padding-bottom: 20vh">
+      <ContentBlock :content="over.werkwijze"  style="padding-bottom: 20vh">
         <div class="darkblue"  v-html="achtergrond_werkwijze"></div>
-      </ContentBlockWide>
+      </ContentBlock>
 
-      <ContentBlockWide :content="over.kosten" left style="padding-bottom: 20vh">
+      <ContentBlock :content="over.kosten" left style="padding-bottom: 20vh">
         <div  v-html="achtergrond_kosten"></div>
-      </ContentBlockWide>
+      </ContentBlock>
 
     </div>
     <CallAction :content="over.call_to_action" link="/contact" style="margin-top: 15vh; padding-bottom: 15vh"></CallAction>
@@ -51,8 +51,8 @@
     background-color: #B3C1A8;
   }
 
-  .content-block >>> p{
-    margin-bottom: 2rem;
+  .content-block-wide >>> h6{
+    margin-top: 25px;
   }
 
 </style>

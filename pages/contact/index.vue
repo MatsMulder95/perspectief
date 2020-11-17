@@ -71,17 +71,14 @@
           e.preventDefault();
 
           document.getElementsByClassName('spinner-border')[0].style.display = 'inline-block'
+          document.getElementById('form-submission').disabled = true
           document.getElementById('form-submission').classList.add('loadbtn')
 
           var $form = $(this);
           $.post($form.attr("action"), $form.serialize()).then(function() {
             setTimeout(function(){
               document.getElementById('form-submission').innerHTML = "Verzonden" + '<span style="display: inline-flex; vertical-align: sub; margin-left: 1rem; font-size: 2vh" class="material-icons">done</span>'
-              setTimeout(function(){
-                document.getElementById('form-submission').classList.remove('loadbtn')
-                document.getElementById('my-form').reset()
-                document.getElementById('form-submission').innerHTML = 'Verstuur bericht<div class="spinner-border spinner-border-sm" style="display: none; margin-left: 1rem" role="status"><span class="sr-only">Loading...</span></div>'
-              }, 1000);
+
             }, 1000);
           });
         });

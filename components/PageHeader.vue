@@ -1,4 +1,5 @@
 <template>
+
   <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
     <nuxt-link to="/" class="navbar-brand" id="logo">
       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="265" viewBox="0 0 1398 2642">
@@ -7,14 +8,10 @@
       </svg>
 
 
-
-
-
-
     </nuxt-link>
     <div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button id="mobile-nav-button" class="navbar-toggler" type="button">
+        <span class="material-icons darkblue">menu</span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
@@ -35,6 +32,7 @@
     </div>
 
   </nav>
+
 </template>
 
 <script>
@@ -90,12 +88,18 @@
   }
 
   #logo{
-
     -webkit-transition: ease-out 200ms;
     -moz-transition: ease-out 200ms;
     transition: ease-out 200ms;
   }
 
+  .navbar-light .navbar-toggler{
+    border: none;
+  }
+
+  #mobile-nav-button:focus{
+    outline: none!important;
+  }
 
 
 </style>

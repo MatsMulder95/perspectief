@@ -1,5 +1,5 @@
 ---
-title: kranenkamp
+title: Kranenkamp
 subtitle: |-
   Stichting IJssellandschap vroeg mij een ecologisch plan te maken voor het landgoed de Kranenkamp. In 1944 is het huis gesloopt en men wil er nu een nieuw modern landhuis plaatsen. De invulling van het bos met bijbehorende landbouwgronden zouden met ecologische ideeën voor het landgoed in een rapport geplaatst moeten worden.
 

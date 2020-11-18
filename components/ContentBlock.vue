@@ -16,7 +16,7 @@
         <div style="right: 0" class="color-back"><div :style="{ backgroundImage: `url(${ content.image })` }" class="image image-left"></div></div>
       </div>
       <div class="col-12 col-lg-8 border-container">
-        <div  class="content-holder content-left">
+        <div class="content-holder content-left">
           <slot>This is the default content if nothing gets specified to go here</slot>
         </div>
 

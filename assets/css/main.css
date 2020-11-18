@@ -1,19 +1,23 @@
 .grey-mode {
   --bg: #EAEAEA;
+  --loading: #B7B7B7;
 }
 
 .green-mode {
   --bg: #E6EBE5;
   --main-color: #FFF7CD;
+  --loading: #B3C1A8;
 }
 
 .yellow-mode {
   --bg: #FFFBEC;
   --main-color: #FFF7CD;
+  --loading: #C1BCA8;
 }
 
 .blue-mode {
   --bg: #ECF0F1;
+  --loading: #AFC2C6;
 }
 
 @font-face {
@@ -194,6 +198,11 @@ body {
   transform-origin: 45% 23%;
 }
 
+#loading-logo-rotation{
+  transform-origin: 45% 23%;
+
+}
+
 .two-column-content p{
   padding: 0 15px 0 15px;
 }
@@ -201,4 +210,40 @@ body {
 
 .two-column-content h6{
   padding: 0 15px 0 15px;
+}
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 1s linear infinite;
+  -moz-animation: rotating 1s linear infinite;
+  -ms-animation: rotating 1s linear infinite;
+  -o-animation: rotating 1s linear infinite;
+  animation: rotating 1s linear infinite;
 }

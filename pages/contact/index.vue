@@ -3,7 +3,7 @@
     <Introduction :content="contact"></Introduction>
     <LargeImage :src="contact.large_image.src" style="margin-top: 20vh"></LargeImage>
     <div class="bg-darkyellow">
-      <ContentBlockWide left :content="contact.form"  style="padding-bottom: 25vh">
+      <ContentBlock left :content="contact.form"  style="padding-bottom: 25vh">
 
        <form id="my-form" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
 
@@ -11,19 +11,19 @@
          <input type="hidden" name="form-name" value="contact">
 
          <p>
-           <label >Naam</label>
+           <label >Naam:</label>
            <input required type="text" class="form-control" name="name">
          </p>
          <p>
-           <label >Email</label>
+           <label >Email:</label>
            <input required type="email" class="form-control" name="email">
          </p>
          <p>
-           <label >Telefoon Nummer</label>
+           <label >Telefoonnummer:</label>
            <input required type="tel" class="form-control" name="phone">
          </p>
          <p>
-           <label>Message:</label>
+           <label>Bericht:</label>
            <textarea rows="5" class="form-control" name="message"></textarea>
          </p>
          <p>
@@ -33,11 +33,11 @@
 
         </form>
 
-      </ContentBlockWide>
+      </ContentBlock>
 
-      <ContentBlockWide left :content="contact.contact" style="padding-bottom: 15vh">
+      <ContentBlock  :content="contact.contact" style="padding-bottom: 15vh">
         <div v-html="contact_content"></div>
-      </ContentBlockWide>
+      </ContentBlock>
 
     </div>
     <CallAction :content="contact.call_to_action" link="/aanbod" style="margin-top: 15vh; padding-bottom: 15vh"></CallAction>
@@ -96,6 +96,11 @@
     margin-left: 1rem
   }
 
+  div >>> h3{
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+    font-family: 'Raleway', sans-serif;
+  }
 
 
 </style>

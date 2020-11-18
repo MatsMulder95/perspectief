@@ -26,7 +26,7 @@
 
     <div class="container-fluid" style="margin-top: -5vh">
       <div class="row justify-content-center">
-        <div class="col-12 col-md-11 col-xl-9">
+        <div class="col-12 col-md-12 col-xl-9">
           <div :id="content.title.replace(/\s/g, '')" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div v-for="(project, index) in projects" class="carousel-item" :class="{ 'active': index === 0 }">
@@ -35,12 +35,12 @@
                       <div class="col-12 col-md-8 project-image" :style="{ backgroundImage: `url(${ project.image })` }" ></div>
                       -->
 
-                      <div class="col-12 col-md-8" style="min-height: 55vh">
+                      <div class="col-12 col-lg-8 project-image-holder">
 
-                        <div v-for="(picture, index2) in project.pictures" class="own-carousal-image" :class="['carousel-'+project.title.replace(/\s/g, ''),{ 'active-image': index2 === projects.length }]" :id="'carousel-'+project.title.replace(/\s/g, '')+'-item-'+index2" :style="[{ backgroundImage: `url(${ picture })` }]"></div>
+                        <div v-for="(picture, index2) in project.pictures" class="own-carousal-image" :class="['carousel-'+project.title.replace(/\s/g, ''),{ 'active-image': index2 === projects.length-1 }]" :id="'carousel-'+project.title.replace(/\s/g, '')+'-item-'+index2" :style="[{ backgroundImage: `url(${ picture })` }]"></div>
 
                         <ol class="carousel-indicators">
-                          <li v-for="(picture, index2) in project.pictures" onclick="switchCarousel(this)" :class="['carousel-'+project.title.replace(/\s/g, '')+'-controls',{ 'active': index2 === projects.length }]" :carousel="'carousel-'+project.title.replace(/\s/g, '')" :carousel-item="'carousel-'+project.title.replace(/\s/g, '')+'-item-'+index2"></li>
+                          <li v-for="(picture, index2) in project.pictures" onclick="switchCarousel(this)" :class="['carousel-'+project.title.replace(/\s/g, '')+'-controls',{ 'active': index2 === projects.length-1 }]" :carousel="'carousel-'+project.title.replace(/\s/g, '')" :carousel-item="'carousel-'+project.title.replace(/\s/g, '')+'-item-'+index2"></li>
                         </ol>
 
                       </div>
@@ -145,10 +145,8 @@ export default {
   height: 400px;
 }
 
-.project-image{
-  background-size: cover;
-  background-position: center;
-  height: 55vh;
+.project-image-holder{
+  min-height: 55vh;
 }
 
 .carousel-control-prev{
@@ -160,15 +158,15 @@ export default {
 }
 
 @media only screen and (max-width: 767px) {
-  .project-image{
-    height: 40vh;
+  .project-image-holder{
+    min-height: 40vh;
   }
 }
 
 .own-carousal-image{
   position: absolute;
-  width: 100%;
   height: 100%;
+  width: 100%;
   background-size: cover;
   background-position: center;
   opacity: 0;

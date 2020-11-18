@@ -81,6 +81,7 @@
 
   .ProjectBlock{
     padding-bottom: 25vh;
+
   }
 
   .project-focus-holder{

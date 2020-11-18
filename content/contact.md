@@ -15,7 +15,7 @@ contact:
   title: Contactgegevens
   subtitle: Neemt u liever op een andere manier contact op? Hieronder vind u al onze
     contactgegevens.
-  image: "/images/sfeer4.jpg"
+  image: "/images/sfeer6.jpg"
   content: "###### Pespectief - Ernst Lohle\n\nDorpsstraat 44  \n7431CL Diepenveen\n\n0570
     – 677 757  \n0625 222 829\n\ninfo@tuinenlandschapsdokter.nl"
 call_to_action:

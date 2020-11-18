@@ -11,8 +11,9 @@ large_image:
   src: "/images/ernst_tuin.jpg"
 aanbod:
   title: Aanbod
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
+  subtitle: Naast het ontwerp en aanleg van tuinen, heeft Perspectief met een verscheidenheid
+    aan andere projecten, waaronder het onderhoud van landgoederen, de inrichting
+    van openbare ruimte en verscheidene kunst concepten.
   tuinen:
     title: Tuinen
     subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

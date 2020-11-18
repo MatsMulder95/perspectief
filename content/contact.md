@@ -13,7 +13,7 @@ form:
   image: "/images/IMG_9631.jpg"
 contact:
   title: Contactgegevens
-  subtitle: Neemt u liever op een andere manier contact op? Hieronder vind u al onze
+  subtitle: Neemt u liever op een andere manier contact op? Hieronder vind u alle
     contactgegevens.
   image: "/images/sfeer6.jpg"
   content: "### Pespectief - Ernst Lohle\n\n###### Adres:\n\nDorpsstraat 44  \n7431CL

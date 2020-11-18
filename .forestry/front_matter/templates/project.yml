@@ -8,9 +8,10 @@ fields:
 - type: textarea
   name: subtitle
   label: Project Omschrijving
-- type: file
-  name: image
-  label: Project Afbeelding
+- name: pictures
+  type: image_gallery
+  config: {}
+  label: Afbeeldingen
 pages:
 - content/projects/tuinen/een-renovatietuin-in-diepenveen.md
 - content/projects/tuinen/een-tuin-in-de-stenen-kamer-in-deventer.md

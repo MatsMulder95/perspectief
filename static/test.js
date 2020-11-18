@@ -54,24 +54,7 @@ function drawBackground(el, fill, fillWeight, fillStyle, bowing, stroke, strokeW
   el.style.background = 'url('+canvas.toDataURL()+')';
 }
 
-/*
-function rotateLogo() {
-  var $elem = $("#logo-rotation");
 
-  $({deg: 0}).animate({deg: -360}, {
-    duration: 500,
-    step: function(now) {
-      // in the step-callback (that is fired each step of the animation),
-      // you can use the `now` paramter which contains the current
-      // animation-position (`0` up to `angle`)
-      $elem.css({
-        transform: 'rotate(' + now + 'deg)'
-      });
-    }
-  });
-
-}
-*/
 
 function rotateLogo(){
   anime({
@@ -80,3 +63,16 @@ function rotateLogo(){
   });
 }
 
+function switchCarousel(el){
+  document.getElementsByClassName(el.getAttribute('carousel')).forEach(function (item){
+    item.style.zIndex = 5
+    item.style.opacity = 0
+  })
+  document.getElementsByClassName(el.getAttribute('carousel')+'-controls').forEach(function (item){
+    item.classList.remove('active')
+  })
+  const item = document.getElementById(el.getAttribute('carousel-item'))
+  item.style.zIndex = 6
+  item.style.opacity = 1
+  el.classList.add('active')
+}

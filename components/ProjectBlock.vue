@@ -31,12 +31,32 @@
             <div class="carousel-inner">
               <div v-for="(project, index) in projects" class="carousel-item" :class="{ 'active': index === 0 }">
                     <div class="row">
-                      <div class="col-12 col-md-8 project-image" :style="{ backgroundImage: `url(${ project.image })` }" >
+                      <!--
+                      <div class="col-12 col-md-8 project-image" :style="{ backgroundImage: `url(${ project.image })` }" ></div>
+                      -->
+
+                      <div class="col-12 col-md-8">
+                        <div class="own-carousal-image" :class="'carousel-'+project.title.replace(/\s/g, '')" :id="'carousel-'+project.title.replace(/\s/g, '')+'-item-1'" style="background-image: url(/images/example_image.jpg)"></div>
+                        <div class="own-carousal-image" :class="'carousel-'+project.title.replace(/\s/g, '')" :id="'carousel-'+project.title.replace(/\s/g, '')+'-item-2'" style="background-image: url(/images/ernst_tuin.jpg)"></div>
+
+                        <ol class="carousel-indicators">
+                          <li onclick="switchCarousel(this)" :class="'carousel-'+project.title.replace(/\s/g, '')+'-controls'" :carousel="'carousel-'+project.title.replace(/\s/g, '')" :carousel-item="'carousel-'+project.title.replace(/\s/g, '')+'-item-1'" class="active"></li>
+                          <li onclick="switchCarousel(this)" :class="'carousel-'+project.title.replace(/\s/g, '')+'-controls'" :carousel="'carousel-'+project.title.replace(/\s/g, '')" :carousel-item="'carousel-'+project.title.replace(/\s/g, '')+'-item-2'"></li>
+                        </ol>
+
+                        <!--
+                        <ol class="">
+                          <li :onclick="switchCarousel('carousel-'+project.title.replace(/\s/g, ''), 'carousel-'+project.title.replace(/\s/g, '')+'-item-1')" class="active"></li>
+                          <li :onclick="switchCarousel('carousel-'+project.title.replace(/\s/g, ''), 'carousel-'+project.title.replace(/\s/g, '')+'-item-2')" ></li>
+                        </ol>
+                        -->
 
                       </div>
-                      <div class="col-12 col-md-4 bg-darkblue p-5">
+
+
+                      <div class="col-12 col-lg-4 bg-darkblue p-5">
                         <h3 class="lightblue">{{ project.title }}</h3>
-                        <p class="lightblue">{{ project.subtitle }}</p>
+                        <p class="lightblue mt-2">{{ project.subtitle }}</p>
                       </div>
                     </div>
               </div>
@@ -151,6 +171,16 @@ export default {
   .project-image{
     height: 40vh;
   }
+}
+
+.own-carousal-image{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  -webkit-transition: ease-out 0.5s;
+  -moz-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
 }
 
 </style>

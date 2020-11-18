@@ -8,8 +8,8 @@ subtitle: 'De eigenaar heeft een nieuw huis laten bouwen met duurzame energie ma
   vlonders breken de rechte lijn van het waterkant, maar geven ook makkelijk toegang
   tot  het water vanaf het terras. '
 pictures:
-- "/images/voorkant.jpg"
 - "/images/pergola.jpg"
 - "/images/vlonders-1.jpg"
+- "/images/voorkant.jpg"
 
 ---

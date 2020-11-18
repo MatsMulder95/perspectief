@@ -8,8 +8,8 @@ subtitle: "De huidige vijver zou een gevaar vormen voor opgroeiende klein kinder
   door het jaar heen. Het nieuwe plan heeft voor nieuwe spanning en kleur en afwisseling
   gezorgd. \n\nDe renovatie is goed gelukt, zonder vijver."
 pictures:
-- "/images/zijkantvoorkant.jpg"
 - "/images/vijver-weg.jpg"
 - "/images/vijver.jpg"
+- "/images/zijkantvoorkant.jpg"
 
 ---

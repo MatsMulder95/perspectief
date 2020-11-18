@@ -5,8 +5,8 @@ subtitle: |-
 
   Het is een mooi geslaagd project. Met voldoende privacy.
 pictures:
-- "/images/img_3223-2.jpg"
 - "/images/tuinrikken-gekleurd.jpg"
 - "/images/img_3225.jpg"
+- "/images/img_3223-2.jpg"
 
 ---

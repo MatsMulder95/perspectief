@@ -64,6 +64,8 @@ kosten:
     mijn tarieven.
   image: "/images/IMG_9639.jpg"
   content: |-
+    Iets is duur, als u een miskoop doet of als u iets krijgt, wat U niet wil. Dat is bij Perspectief nooit het geval, immers uw wensen worden vertaald en op papier gezet. De tekening is de leidraad voor de inrichting en de kostenbegroting voor exploitatie, die volgens vaste standaardprijzen worden berekend.
+
     ###### Uurprijs
 
     Als ontwerper ben je bezig een mooie vertaalslag te maken van een plan in een tweedimensionaal vlak naar een driedimensionale werkelijkheid. In deze virtuele wereld heb je te maken met de ruimte indelen naar een menselijke maat met voornamelijk planten. Deze planten hebben een verticale gelaagdheid (bomen, struiken, vaste planten en bollen) en verschillen in kleur, bloeitijd en textuur. De kleur kan alles bepalend zijn, of ritmisch terug komen in tijd en plaats

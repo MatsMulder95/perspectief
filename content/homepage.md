@@ -16,8 +16,8 @@ aanbod:
     van openbare ruimte en het ontwerp van kunst concepten.'
   tuinen:
     title: Tuinen
-    subtitle: Iedereen tuin is uniek. Iedereen tuin is uniek. Daarom stelt Perspectief
-      de plek centraal tijdens het ontwerp proces.
+    subtitle: Iedereen tuin is uniek. Daarom stelt Perspectief de plek centraal tijdens
+      het ontwerp proces.
     btn: Bekijk onze tuinen
     image: "/images/dwin5.JPG"
   landgoederen:

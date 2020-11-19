@@ -37,7 +37,7 @@ aanbod:
     subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut la.
     btn: Bekijk projecten
-    image: "/images/IMG_9642.jpg"
+    image: "/images/kunstenlab3.jpg"
 call_to_action:
   title: Ook een project?
   subtitle: 'Heeft u '

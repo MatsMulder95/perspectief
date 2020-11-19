@@ -16,9 +16,9 @@ aanbod:
     van openbare ruimte en het ontwerp van kunst concepten.'
   tuinen:
     title: Tuinen
-    subtitle: 'Iedereen tuin is uniek. Daarom ontwerp Perspectief naar de plek (Genus
-      Loci). Het gaat daarbij niet om de grootte, maar om uw ervaring. Wel zijn er
-      aantal basis principes:'
+    subtitle: 'Iedereen tuin is uniek. Iedereen tuin is uniek. Daarom ontwerp Perspectief
+      naar de plek (Genus Loci). Het gaat daarbij niet om de grootte, maar om uw ervaring.
+      Wel zijn er aantal basis principes:'
     btn: Bekijk onze tuinen
     image: "/images/dwin5.JPG"
   landgoederen:

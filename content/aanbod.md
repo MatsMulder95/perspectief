@@ -27,24 +27,26 @@ landgoederen:
   title: Landgoederen
   subtitle: Perspectief heeft ook geruime tijd ervaring met de herinrichting van landgoederen.
     De volgende vijf punten vormen hierbij de leidraad.
-  content: "###### Historisch perspectief met familieachtergrond\n\nEen oud landgoed
-    heeft een geschiedenis. Daarvan zijn vaak nog aanwijzingen, zoals landschapsontwerpen
-    en foto's, in de archieven terug te vinden. De kunst van deze projecten ligt vaak
-    in een fris herontwerp, mogelijk gemaakt door het ruimere plantassortiment van
-    tegenwoordig, maar met een duidelijk oogwenk naar het verleden.\n\n###### Functie
-    in het landschap\n\nVaak ligt er rondom de tuin nog een aantal hectare weide of
-    landbouwgrond met bijpassende singels, bosjes, en houtwallen.  De tuin moet niet
-    vloeken met de omliggende cultuurgronden, maar moet samen tot een eenheid komen.\n\n######
-    Herbestemming oude gebouwen\n\nOude boerderijen en stallen worden tegenwoordig
-    vaak omgebouwd tot kantoorruimtes of woonhuizen voor familieleden. De herinrichting
-    van de omgeving is daarbij even belangrijk, zoals het uitzicht, de aanleg van
-    een terras of het verbeteren van de toegangswegen.\n\n###### Het onderhoud moet
-    betaalbaar zijn\n\nDe tijd van een meerdere tuinmannen is helaas voorbij. Het
-    ontwerp moet dus zo ingericht zijn dat de eigenaar zijn landgoed goed kan onderhouden.
-    \n\n###### Overheidssubsidie, wetten en bepalingen.\n\nEen landgoed kan in aanmerking
-    komen voor overheidssubsidies. Ook zijn er rood voor rood regelingen, pakketten
-    voor het beheer voor weide gronden, houtwallen en poelen.  Het ontwerp dient hier
-    rekening mee te houden."
+  content: |-
+    ###### Functie in het landschap
+
+    Vaak ligt er rondom de tuin nog een aantal hectare weide of landbouwgrond met bijpassende singels, bosjes, en houtwallen.  De tuin moet niet vloeken met de omliggende cultuurgronden, maar moet samen tot een eenheid komen.
+
+    ###### Herbestemming oude gebouwen
+
+    Oude boerderijen en stallen worden tegenwoordig vaak omgebouwd tot kantoorruimtes of woonhuizen voor familieleden. De herinrichting van de omgeving is daarbij even belangrijk, zoals het uitzicht, de aanleg van een terras of het verbeteren van de toegangswegen.
+
+    ###### Het onderhoud moet betaalbaar zijn
+
+    De tijd van een meerdere tuinmannen is helaas voorbij. Het ontwerp moet dus zo ingericht zijn dat de eigenaar zijn landgoed goed kan onderhouden.
+
+    ###### Overheidssubsidie, wetten en bepalingen.
+
+    Een landgoed kan in aanmerking komen voor overheidssubsidies. Ook zijn er rood voor rood regelingen, pakketten voor het beheer voor weide gronden, houtwallen en poelen.  Het ontwerp dient hier rekening mee te houden.
+
+    ###### Historisch perspectief met familieachtergrond
+
+    Een oud landgoed heeft een geschiedenis. Daarvan zijn vaak nog aanwijzingen, zoals landschapsontwerpen en foto's, in de archieven terug te vinden. De kunst van deze projecten ligt vaak in een fris herontwerp, mogelijk gemaakt door het ruimere plantassortiment van tegenwoordig, maar met een duidelijk oogwenk naar het verleden.
 openbaar:
   title: Openbare Ruimte
   subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

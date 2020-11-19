@@ -11,9 +11,9 @@ large_image:
   src: "/images/ernst_tuin.jpg"
 aanbod:
   title: Aanbod
-  subtitle: Naast het ontwerp en aanleg van tuinen, heeft Perspectief ervaring met
-    een verscheidenheid aan andere projecten, waaronder het onderhoud van landgoederen,
-    de inrichting van openbare ruimte en het ontwerp van verscheidene kunst concepten.
+  subtitle: 'De projecten van Perspectief vallen onder te verdelen in vier categorieën:
+    het ontwerp en aanleg van tuinen, de herinrichting van landgoederen, de inrichting
+    van openbare ruimte en het ontwerp van kunst concepten.'
   tuinen:
     title: Tuinen
     subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

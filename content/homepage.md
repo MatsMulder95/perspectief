@@ -19,7 +19,7 @@ aanbod:
     subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut la.
     btn: Bekijk projecten
-    image: "/images/example_image.jpg"
+    image: "/images/dwin5.JPG"
   landgoederen:
     title: Landgoederen
     subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

@@ -31,7 +31,7 @@ aanbod:
     subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut la.
     btn: Bekijk projecten
-    image: "/images/IMG_9635.jpg"
+    image: "/images/newdscplanai.jpg"
   kunst:
     title: Kunst
     subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

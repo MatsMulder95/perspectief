@@ -1,9 +1,9 @@
 ---
 introduction:
   title: Ons Aanbod
-  subtitle: Naast het ontwerp en aanleg van tuinen, heeft Perspectief met een verscheidenheid
-    aan andere projecten, waaronder het onderhoud van landgoederen, de inrichting
-    van openbare ruimte en verscheidene kunst concepten.
+  subtitle: Naast het ontwerp en aanleg van tuinen, heeft Perspectief ervaring met
+    een verscheidenheid aan andere projecten, waaronder het onderhoud van landgoederen,
+    de inrichting van openbare ruimte en het ontwerp van verscheidene kunst concepten.
 large_image:
   src: "/images/img_9277.jpg"
 tuinen:

@@ -78,10 +78,9 @@ kosten:
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 call_to_action:
-  title: Ook een project?
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  title: Iets onduidelijk?
+  subtitle: Is iets nog onduidelijk, heeft u aanvullende vragen of wilt u graag een
+    keer kennismaking? Ik ontmoet u graag tijdens een vrijblijvend kennismakingsgesprek.
   btn: Neem contact op
 
 ---

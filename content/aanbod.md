@@ -65,9 +65,11 @@ kunst:
     Een zitbank kan deel uit maken van een hele serie op plaatsen waar het er toe doet. De wijngaard van de Landman had een blikvanger nodig aan de weg. Hiervoor kan en kunstobject dienst doen.
 call_to_action:
   title: Ook een project?
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  subtitle: Bent u ontevreden over de huidige inrichting van uw buitenruimte? Wilt
+    u een nieuw beheers- of inrichtingsplan voor uw landgoed? Of verlangt u naar meer
+    groen in de winkelstraat? Perspectief begeleidt u door het gehele proces van idee
+    en wensen tot realisatie uw buiten dromen. Neem contact op voor meer informatie
+    of een vrijblijvend kennismakingsgesprek.
   btn: Neem contact op
 
 ---

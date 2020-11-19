@@ -8,9 +8,9 @@ large_image:
   src: "/images/img_9277.jpg"
 tuinen:
   title: Tuinen
-  subtitle: Perspectief ontwerp naar plek. Het gaat er daarbij niet om hoe groot of
-    hoe klein uw tuin is - iedere tuin is uniek. 'Het gaat om uw ervaring. Wel zijn
-    er aantal basis principes.
+  subtitle: 'Iedereen tuin is uniek. Daarom ontwerp Perspectief naar de plek (Genus
+    Loci). Het gaat daarbij niet om de grootte, maar om uw ervaring. Wel zijn er aantal
+    basis principes:'
   content: |-
     ###### De menselijke maat
 

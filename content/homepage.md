@@ -25,7 +25,7 @@ aanbod:
     subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut la.
     btn: Bekijk projecten
-    image: "/images/IMG_9631.jpg"
+    image: "/images/achterkant-huis-1.jpg"
   openbare_ruimte:
     title: Openbare Ruimte
     subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

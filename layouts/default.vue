@@ -1,6 +1,6 @@
 <template>
   <div id="page-holder">
-    <div id="mobile-nav" class="mobile-nav bg-darkblue d-flex justify-content-center">
+    <div id="mobile-nav" class="mobile-nav d-flex justify-content-center">
       <span id="close-nav" class="material-icons text-white">close</span>
        <table style="height: 100%">
           <tbody>
@@ -196,6 +196,7 @@
   }
 
   .mobile-nav{
+    background-color: var(--loading);
     position: fixed;
     z-index: 99;
     width: 100vw;

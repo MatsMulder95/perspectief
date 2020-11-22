@@ -22,7 +22,7 @@
             <div class="col-12">
               <h2 class="yellow">{{ homepage.aanbod.title }}</h2>
             </div>
-            <div class="col-12 col-md-9">
+            <div class="col-12 col-md-10">
               <h4 class="text-white">{{ homepage.aanbod.subtitle }}</h4>
             </div>
           </div>

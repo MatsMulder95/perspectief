@@ -25,7 +25,7 @@
             <nuxt-link class="nav-link" to="/aanbod">Aanbod</nuxt-link>
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link" to="contact/">Contact</nuxt-link>
+            <nuxt-link class="nav-link" to="/contact">Contact</nuxt-link>
           </li>
         </ul>
       </div>

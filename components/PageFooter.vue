@@ -81,7 +81,7 @@
                 <div class="col-11">
                   <p>Dorpsstraat 44 | 7321Cl Diepenveen</p>
 
-                  <p><a href="tel:0570677757">0570677757</a> | <a href="tel:0625222829">0625222829</a></p>
+                  <p><a href="tel:0570 677 757">0570677757</a> | <a href="tel:0625 222 829">0625222829</a></p>
 
                   <a target="_blank" href="mailto:info@tuinenlandschapsdokter.nl"><p>info@tuinenlandschapsdokter.nl</p></a>
                 </div>

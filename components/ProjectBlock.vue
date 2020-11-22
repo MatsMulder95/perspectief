@@ -26,7 +26,7 @@
 
     <div class="container-fluid" style="margin-top: -5vh">
       <div class="row justify-content-center">
-        <div class="col-12 col-md-12 col-xl-9">
+        <div class="col-12 project-container">
           <div :id="content.title.replace(/\s/g, '')" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div v-for="(project, index) in projects" class="carousel-item" :class="{ 'active': index === 0 }">
@@ -119,9 +119,9 @@ export default {
 
 <style scoped>
 .two-column-content{
-  -webkit-columns: 2 400px;
-  -moz-columns: 2 400px;
-  columns: 2 400px;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
   padding: 3vw 4vw 3vw 4vw;
 }
 
@@ -184,5 +184,30 @@ p{
   font-weight: 500;
 }
 
+.project-container{
+  padding-left: 14vw;
+  padding-right: 14vw;
+}
+
+@media only screen and (max-width: 1750px) {
+  .project-container{
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .project-container{
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .project-container{
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
 
 </style>

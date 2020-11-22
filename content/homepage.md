@@ -2,10 +2,11 @@
 introduction:
   name: Perspectief
   title: Tuin- en landschapsdokter
-  description: 'De begrenzingen van ruimtes kunnen semi transparant of solide zijn,
-    zoals pergola’s, hekken, heggen, aarden wallen, bosplantsoen, struikmassa’s of
-    opgekroonde bomen. De ruimte worden ook in een horizontale vlak gevuld met bestrating,
-    semiverharding, gazons of spiegelvijvers. '
+  description: Perspectief tuin- & landschapsdokter begeleidt u door het hele proces
+    van idee en wensen tot realisatie van uw tuindromen.(hoe werkt Perspectief).  Dat
+    kan een totaalplan zijn of een gedeelte van de tuin. Geen tuin van de dokter is
+    een blauwprint voor een andere, want de plek (Genus Loci) is nooit hetzelfde.
+    Uw tuin is uniek en het enige exemplaar met die inrichting.
   btn: Meer over perspectief
 large_image:
   src: "/images/ernst_tuin.jpg"

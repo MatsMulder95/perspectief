@@ -43,9 +43,7 @@ call_to_action:
   title: Ook een project?
   subtitle: Bent u ontevreden over de huidige inrichting van uw buitenruimte? Wilt
     u een nieuw beheers- of inrichtingsplan voor uw landgoed? Of verlangt u naar meer
-    groen in de winkelstraat? Perspectief begeleidt u door het gehele proces van idee
-    en wensen tot realisatie uw buiten dromen. Neem contact op voor meer informatie
-    of een vrijblijvend kennismakingsgesprek.
+    groen in de winkelstraat? Neem contact op voor een vrijblijvend kennismakingsgesprek.
   btn: Neem contact op
 
 ---

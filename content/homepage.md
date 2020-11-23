@@ -39,10 +39,9 @@ aanbod:
     btn: Bekijk projecten
     image: "/images/kunstenlab3.jpg"
 call_to_action:
-  title: Ook een project?
-  subtitle: Bent u ontevreden over de huidige inrichting van uw buitenruimte? Wilt
-    u een nieuw beheers- of inrichtingsplan voor uw landgoed? Of verlangt u naar meer
-    groen in de winkelstraat? Neem contact op voor een vrijblijvend kennismakingsgesprek.
+  title: Ook een buiten droom?
+  subtitle: 'Iedereen heeft buiten dromen, wat zijn dan die van u? Neem contact op
+    voor meer informatie of een vrijblijvend kennismakingsgesprek. '
   btn: Neem contact op
 
 ---

@@ -12,9 +12,8 @@ large_image:
   src: "/images/ernst_tuin.jpg"
 aanbod:
   title: Aanbod
-  subtitle: 'De projecten van Perspectief vallen onder te verdelen in vier categorieën:
-    het ontwerp en aanleg van tuinen, de herinrichting van landgoederen, de inrichting
-    van openbare ruimte en het ontwerp van kunst concepten.'
+  subtitle: Van tuinen tot openbare ruimte en landgoederen tot kunst, perspectief
+    heeft ervaring met veel verschillende soorten projecten.
   tuinen:
     title: Tuinen
     subtitle: Iedereen tuin is uniek. Daarom stelt Perspectief de plek centraal tijdens

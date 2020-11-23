@@ -53,8 +53,8 @@ werkwijze:
     Vervolgens kan tot uitvoering van het ontwerp worden overgegaan. Uiteraard bespreken we vóór de tijd wat eventueel zelf zou willen doen.
 kosten:
   title: Kosten
-  subtitle: De kosten zijn uiteraard belangrijk. Hieronder vind u een overzicht van
-    mijn tarieven.
+  subtitle: De kosten zijn belangrijk tijdens ieder project. Hieronder vind u een
+    overzicht van onze kosten en tarieven.
   image: "/images/IMG_9639.jpg"
   content: |-
     Iets is duur, als u een miskoop doet of als u iets krijgt, wat U niet wil. Dat is bij Perspectief nooit het geval, immers uw wensen worden vertaald en op papier gezet. De tekening is de leidraad voor de inrichting en de kostenbegroting voor exploitatie, die volgens vaste standaardprijzen worden berekend.

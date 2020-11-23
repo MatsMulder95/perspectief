@@ -22,15 +22,15 @@ aanbod:
     image: "/images/dwin5.JPG"
   landgoederen:
     title: Landgoederen
-    subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut la.
-    btn: Bekijk projecten
+    subtitle: De herinrichting van landgoederen is vaak een complexe aangelegenheid.
+      Perspectief helpt u graag.
+    btn: Bekijk onze projecten.
     image: "/images/achterkant-huis-1.jpg"
   openbare_ruimte:
     title: Openbare Ruimte
     subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut la.
-    btn: Bekijk projecten
+    btn: Bekijk onze projecten
     image: "/images/newdscplanai.jpg"
   kunst:
     title: Kunst

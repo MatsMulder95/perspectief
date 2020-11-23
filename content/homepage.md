@@ -28,8 +28,8 @@ aanbod:
     image: "/images/achterkant-huis-1.jpg"
   openbare_ruimte:
     title: Openbare Ruimte
-    subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut la.
+    subtitle: De inrichting van openbare ruimte is vaak een grote puzzel van verschillende
+      belangen. Perspectief helpt u bij het oplossen van deze puzzel.
     btn: Bekijk onze projecten
     image: "/images/newdscplanai.jpg"
   kunst:

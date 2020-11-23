@@ -18,12 +18,12 @@ aanbod:
     title: Tuinen
     subtitle: Iedereen tuin is uniek. Daarom stelt Perspectief de plek centraal tijdens
       het ontwerp proces.
-    btn: Bekijk onze tuinen
+    btn: Bekijk onze projecten
     image: "/images/dwin5.JPG"
   landgoederen:
     title: Landgoederen
     subtitle: De herinrichting van landgoederen is vaak een complexe aangelegenheid.
-      Perspectief helpt u graag.
+      Perspectief heeft veel ervaring en helpt u graag.
     btn: Bekijk onze projecten.
     image: "/images/achterkant-huis-1.jpg"
   openbare_ruimte:

@@ -49,12 +49,16 @@ landgoederen:
     Een oud landgoed heeft een geschiedenis. Daarvan zijn vaak nog aanwijzingen, zoals landschapsontwerpen en foto's, in de archieven terug te vinden. De kunst van deze projecten ligt vaak in een fris herontwerp, mogelijk gemaakt door het ruimere plantassortiment van tegenwoordig, maar met een duidelijk oogwenk naar het verleden.
 openbaar:
   title: Openbare Ruimte
-  subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. '
+  subtitle: De inrichting van openbare ruimte is vaak een grote puzzel van verschillende
+    belangen. Perspectief helpt u bij het oplossen van deze puzzel.
   content: |-
-    De grond is eigendom van de gemeente of geeft het in beheer af aan een pachter, stichting of aan een vereniging. Er een heel aantal bepalingen, waaraan een ontwerper zich aan te houden heeft en vaak is er ook nog een publieke opinie. Geluid licht en bereikbaarheid kunnen een hinderlijk struikelblok zijn. Het is een grote uitdaging, als alle puzzelstukjes in een ontwerp samen komen.
+    ###### Verschillende belangen
 
-    Zelf heb ik of samen met andere vakgenoten een aantal ontwerpen mogen maken, alle ontwerpen hebben een visie met een duidelijk verwijsbare achtergrond. Zo heeft het ontwerp van de Dorpsstraat in Diepenveen, als doel een landelijke uitstraling en een zoektocht naar een pleintje. Het ontwerp van het tennispark Schapekolk heeft als visie: de integratie van sporten met als doel een gemeenschappelijk clubhuis. De tuin van de moskee in Deventer heeft een duidelijke verwijzing naar het ontwerpschema van Arabische grondplan en de manifestatie ruimte van het IJpark is een aanzuigend wak.
+    De inrichting of herinrichting van openbare ruimte is vaak een samenspel van verschillende belangen. De grond is eigendom van de gemeente of geeft het in beheer af aan een pachter, stichting of aan een vereniging. Bovendien is er vaak een bestemmingsplan, waaraan een ontwerper zich aan dient te houden. Ook de wensen en bedenken van omwonende tellen mee. Denk hierbij bijvoorbeeld aan geluid, licht en de bereikbaarheid.
+
+    ###### Visie
+
+    Perspectief heeft inmiddels veel ervaring met het ontwerp van openbare ruimte. Daarbij werk ik zowel individueel als in samenwerkingen met andere vakgenoten. Een visie staat hierbij centraal. Zo heeft het ontwerp van de Dorpsstraat in Diepenveen, als doel een landelijke uitstraling te creëren. De tuin van de moskee in Deventer heeft een duidelijke verwijzing naar het ontwerpschema van het Arabische grondplan.
 kunst:
   title: Kunst
   subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

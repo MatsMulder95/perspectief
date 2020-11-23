@@ -2,11 +2,11 @@
 introduction:
   name: Perspectief
   title: Tuin- en landschapsdokter
-  description: Perspectief tuin- & landschapsdokter begeleidt u door het hele proces
-    van idee en wensen tot realisatie van uw tuindromen.(hoe werkt Perspectief).  Dat
-    kan een totaalplan zijn of een gedeelte van de tuin. Geen tuin van de dokter is
-    een blauwprint voor een andere, want de plek (Genus Loci) is nooit hetzelfde.
-    Uw tuin is uniek en het enige exemplaar met die inrichting.
+  description: Bent u ontevreden over de huidige inrichting van uw buitenruimte? Wilt
+    u een nieuw beheers- of inrichtingsplan voor uw landgoed? Of verlangt u naar meer
+    groen in de winkelstraat? Perspectief tuin- & landschapsdokter heeft ruim 15 jaar
+    ervaring  op het gebied van tuin- en landschapsontwerp en begeleidt u door het
+    hele proces van idee en wensen tot realisatie van uw tuindromen.
   btn: Meer over perspectief
 large_image:
   src: "/images/ernst_tuin.jpg"

@@ -1,9 +1,9 @@
 ---
 introduction:
   title: Contact
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  subtitle: Bent u benieuwd geworden naar onze dienstverlening voor uw buiten droom?
+    Of wilt u meer informatie over Perspectief? Laat uw gegevens achter via het contactformulier
+    of gebruik onze contactgegevens. We helpen u graag verder.
 large_image:
   src: "/images/sfeer3.jpg"
 form:

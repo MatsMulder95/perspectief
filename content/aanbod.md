@@ -61,12 +61,16 @@ openbaar:
     Perspectief heeft inmiddels veel ervaring met het ontwerp van openbare ruimte. Daarbij werk ik zowel individueel als in samenwerkingen met andere vakgenoten. Een visie staat hierbij centraal. Zo heeft het ontwerp van de Dorpsstraat in Diepenveen, als doel een landelijke uitstraling te creëren. De tuin van de moskee in Deventer heeft een duidelijke verwijzing naar het ontwerpschema van het Arabische grondplan.
 kunst:
   title: Kunst
-  subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. '
+  subtitle: Kunstobjecten kunnen een extra dimensie geven aan een buitenruimte. Perspectief
+    helpt u hier graag bij.
   content: |-
-    Ontwerpen is al kunst, maar een kunstobject in een tuin of openbare ruimte kan een extra dimensie aan een plek. Ik heb een aantal projecten gewerkt, waar een kunstobject deel uit kan maken van het geheel. Zo geven de Corte stalen schermen met uitsparingen gebaseerd op een print van Esscher een Nederlands tintje aan rustplaats aan de Loire. Tevens heeft het een praktische functie om ongehinderd en beschermd vogels te spotten op de zandbanken van de rivier.
+    ###### Een extra dimensie
 
-    Een zitbank kan deel uit maken van een hele serie op plaatsen waar het er toe doet. De wijngaard van de Landman had een blikvanger nodig aan de weg. Hiervoor kan en kunstobject dienst doen.
+    Tuin- en landschapsontwerp is natuurlijk als een kunst opzich, maar een speciaal ontworpen kunstobject kan vaak een extra dimensie toevoegen aan een tuin, landgoed of openbare ruimte. De objecten kunnen een esthetische toevoeging zijn aan het ontwerp of een blikvanger vormen aan de weg.
+
+    ###### Ervaring
+
+    Ik heb een aantal projecten gewerkt, waar een kunstobject deel uit kan maken van het geheel. Zo geven de Corte stalen schermen met uitsparingen gebaseerd op een print van Esscher een Nederlands tintje aan rustplaats aan de Loire. Ook heb ik een zitbank ontwerpen voor alle rustpunten in Salland.
 call_to_action:
   title: Ook een project?
   subtitle: Bent u ontevreden over de huidige inrichting van uw buitenruimte? Wilt

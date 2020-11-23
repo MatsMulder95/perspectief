@@ -4,9 +4,9 @@ introduction:
   title: Tuin- en landschapsdokter
   description: Bent u ontevreden over de huidige inrichting van uw buitenruimte? Wilt
     u een nieuw beheers- of inrichtingsplan voor uw landgoed? Of verlangt u naar meer
-    groen in de winkelstraat? Perspectief tuin- & landschapsdokter heeft ruim 15 jaar
-    ervaring  op het gebied van tuin- en landschapsontwerp en begeleidt u door het
-    hele proces van idee en wensen tot realisatie van uw tuindromen.
+    groen in de winkelstraat? Perspectief heeft ruim 15 jaar ervaring  op het gebied
+    van tuin- en landschapsontwerp en begeleidt u door het hele proces van idee en
+    wensen tot realisatie van uw tuindromen.
   btn: Meer over perspectief
 large_image:
   src: "/images/ernst_tuin.jpg"

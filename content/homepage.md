@@ -34,9 +34,9 @@ aanbod:
     image: "/images/newdscplanai.jpg"
   kunst:
     title: Kunst
-    subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut la.
-    btn: Bekijk projecten
+    subtitle: Kunstobjecten kunnen een extra dimensie geven aan een buitenruimte.
+      Perspectief helpt u hier graag bij.
+    btn: Bekijk onze projecten
     image: "/images/kunstenlab3.jpg"
 call_to_action:
   title: Wat zijn uw buiten dromen?

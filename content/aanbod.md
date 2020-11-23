@@ -72,12 +72,9 @@ kunst:
 
     Ik heb een aantal projecten gewerkt, waar een kunstobject deel uit kan maken van het geheel. Zo geven de Corte stalen schermen met uitsparingen gebaseerd op een print van Esscher een Nederlands tintje aan rustplaats aan de Loire. Ook heb ik een zitbank ontwerpen voor alle rustpunten in Salland.
 call_to_action:
-  title: Ook een project?
-  subtitle: Bent u ontevreden over de huidige inrichting van uw buitenruimte? Wilt
-    u een nieuw beheers- of inrichtingsplan voor uw landgoed? Of verlangt u naar meer
-    groen in de winkelstraat? Perspectief begeleidt u door het gehele proces van idee
-    en wensen tot realisatie uw buiten dromen. Neem contact op voor meer informatie
-    of een vrijblijvend kennismakingsgesprek.
+  title: Wat zijn uw buitendromen?
+  subtitle: 'Iedereen heeft buiten dromen, wat zijn dan die van u? Neem contact op
+    voor meer informatie of een vrijblijvend kennismakingsgesprek. '
   btn: Neem contact op
 
 ---

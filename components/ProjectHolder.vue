@@ -47,7 +47,7 @@
   .content{
     background-size: cover;
     background-position: center;
-    padding-bottom: 3rem;
+    padding-bottom: 3vh;
     min-height: 40vh;
     padding-top: 19vh;
   }

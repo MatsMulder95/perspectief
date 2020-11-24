@@ -37,10 +37,10 @@
 
                       <div class="col-12 col-lg-8 project-image-holder">
 
-                        <div v-for="(picture, index2) in project.pictures" class="own-carousal-image" :class="['carousel-'+project.title.replace(/\s/g, ''),{ 'active-image': index2 === projects.length-1 }]" :id="'carousel-'+project.title.replace(/\s/g, '')+'-item-'+index2" :style="[{ backgroundImage: `url(${ picture })` }]"></div>
+                        <div v-for="(picture, index2) in project.pictures" class="own-carousal-image" :class="['carousel-'+project.title.replace(/\s/g, ''),{ 'active-image': index2 === (project.pictures.length-1) }]" :id="'carousel-'+project.title.replace(/\s/g, '')+'-item-'+index2" :style="[{ backgroundImage: `url(${ picture })` }]"></div>
 
                         <ol class="carousel-indicators">
-                          <li v-for="(picture, index2) in project.pictures" onclick="switchCarousel(this)" :class="['carousel-'+project.title.replace(/\s/g, '')+'-controls',{ 'active': index2 === projects.length-1 }]" :carousel="'carousel-'+project.title.replace(/\s/g, '')" :carousel-item="'carousel-'+project.title.replace(/\s/g, '')+'-item-'+index2"></li>
+                          <li v-for="(picture, index2) in project.pictures" onclick="switchCarousel(this)" :class="['carousel-'+project.title.replace(/\s/g, '')+'-controls',{ 'active': index2 === (project.pictures.length-1) }]" :carousel="'carousel-'+project.title.replace(/\s/g, '')" :carousel-item="'carousel-'+project.title.replace(/\s/g, '')+'-item-'+index2"></li>
                         </ol>
 
                       </div>

@@ -150,7 +150,7 @@ body {
 
 .btn:after {
   margin-left: 10px;
-  content:'🡒';
+  content:'→';
   -webkit-transition: ease-out 0.3s;
   -moz-transition: ease-out 0.3s;
   transition: ease-out 0.3s;

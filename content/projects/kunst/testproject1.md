@@ -1,10 +1,15 @@
 ---
-title: Tekening weiland
+title: De landman, de wijgaard van Raalte
 subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua.
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+  aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+  nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+  officia deserunt mollit anim id est laborum.
 pictures:
-- "/images/hatumm2.JPG"
-- "/images/kobesachtertuin.jpg"
-- "/images/quartero.JPG"
+- "/images/kunstenlab4.jpg"
+- "/images/kunstenlab1-1.jpg"
+- "/images/kunstenlab2.jpg"
+- "/images/kunstenlab3-1.jpg"
 
 ---

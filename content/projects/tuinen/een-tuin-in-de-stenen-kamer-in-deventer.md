@@ -5,7 +5,9 @@ subtitle: |-
 
   Er is veel aandacht besteed aan de beplanting  op het relatief kleine perceel, waardoor het ontwerp  speels luchtig en volledig past in de omgeving. Het is een lust voor het oog, als alle planten opgroeien tot volle wasdom, want het hele groeiseizoen lang zal er aan de waterkant iets bloeien. De virtuele schetsen zijn werkelijkheid geworden.  De vlonderpartij ligt er prachtig bij, opgesierd  door hoge meerpalen.
 pictures:
+- "/images/schets-pergola.jpg"
 - "/images/pergola.jpg"
+- "/images/vaste-planten2.jpg"
 - "/images/voorkant.jpg"
 - "/images/vlonders-1.jpg"
 

@@ -9,7 +9,7 @@ fields:
   name: subtitle
   label: Project Omschrijving
   config:
-    max: 600
+    max: 
     min: 200
 - name: pictures
   type: image_gallery

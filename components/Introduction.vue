@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class="row mt-1">
-      <div class="col-12 col-md-8">
+      <div class="col-12 col-md-7">
         <h4 class="darkblue">{{ content.introduction.subtitle }}</h4>
       </div>
     </div>
@@ -42,7 +42,7 @@
 
   h4{
     font-weight: 400;
-    font-size: 2vh;
+    font-size: 1.2rem;
   }
 
 </style>

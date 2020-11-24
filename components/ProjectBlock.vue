@@ -13,7 +13,7 @@
             <h4 class="darkblue">{{ content.subtitle }}</h4>
           </div>
         </div>
-        <div class="row">
+        <div class="row mt-4 mt-md-2">
           <div v-html="info" class="col-12 two-column-content"></div>
         </div>
         <div class="row pb-5">
@@ -48,7 +48,7 @@
 
                       <div class="col-12 col-lg-4 bg-darkblue p-5">
                         <h3 style="font-size: 2.2rem" class="lightblue">{{ project.title }}</h3>
-                        <p class="lightblue mt-3">{{ project.subtitle }}</p>
+                        <p class="lightblue mt-3 content-box">{{ project.subtitle }}</p>
                       </div>
                     </div>
               </div>
@@ -119,12 +119,11 @@ export default {
 
 <style scoped>
 .two-column-content{
-  -webkit-columns: 2;
-  -moz-columns: 2;
-  columns: 2;
+  -webkit-columns: 2 400px;
+  -moz-columns: 2 400px;;
+  columns: 2 400px;;
   padding: 3vw 4vw 3vw 4vw;
 }
-
 
 
 #color-container{

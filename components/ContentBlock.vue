@@ -53,7 +53,7 @@
 <style scoped>
   .content-holder{
     padding: 7vh 8vh 7vh 7vh;
-    border: 1px solid rgba(0,0,0,0.3);
+    border: 1px solid rgba(0,0,0,0.2);
   }
 
   .border-container{
@@ -92,16 +92,21 @@
   }
 
   .content-left{
-    padding: 7vh 7vh 7vh 8vh;
+    padding: 4vw 4vw 4vw 4vw;
   }
 
-  @media only screen and (max-width: 575px) {
+
+  @media only screen and (max-width: 991px) {
     .image-holder{
-      height: 50vh;
+      height: 40vh;
+      overflow: hidden;
     }
     .color-back{
       top: 0;
+      left: 0;
+      right: 0;
       height: 100%;
+      position: initial;
     }
 
     .image{
@@ -109,7 +114,15 @@
       height: 100%;
       top:0;
       left: 0;
+      background-position: center;
   }
+  }
+
+  @media only screen and (max-width: 575px) {
+    .content-holder{
+      padding: 2vh 2vh 2vh 2vh;
+      border: none;
+    }
   }
 
 

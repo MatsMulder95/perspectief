@@ -40,8 +40,9 @@
       </ContentBlock>
 
     </div>
+    <!--
     <CallAction :content="contact.call_to_action" link="/aanbod" style="margin-top: 15vh; padding-bottom: 15vh"></CallAction>
-
+     -->
   </div>
 </template>
 

@@ -81,7 +81,8 @@ export default {
       $("#page-transition-holder").css({"marginLeft": '100vw'});
     },
     enter: function (el, done) {
-      document.getElementById('page-loading-holder').style.display = 'none'
+      document.getElementById('page-loading-holder').style.opacity = '0'
+      document.getElementById('page-loading-holder').style.zIndex = '0'
       $("#page-transition-holder").animate({marginLeft: '-100vw'},"slow",
         function () {
           done()

@@ -1,16 +1,34 @@
 <template>
-  <div class="project-holder">
-    <div id="image-holder" :style="{ backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.44) 29.17%, rgba(0, 0, 0, 0.1) 46.88%, rgba(0, 0, 0, 0.1) 100%), url(${ content.image })` }" align="left">
-      <div id="text-holder" >
-        <h3 class="text-white">{{ content.title }}</h3>
-        <p class="text-white">{{ content.subtitle }}</p>
-        <nuxt-link class="project-link" :to="link"><button type="button" class="btn btn-small mt-3 bg-yellow darkblue">Bekijk Projecten</button></nuxt-link>
+  <div class="container-fluid project-holder">
+    <div class="row">
+      <div class="col-12" style="padding: 1vh">
+        <div class="content"  :style="{ backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.44) 29.17%, rgba(0, 0, 0, 0.1) 46.88%, rgba(0, 0, 0, 0.1) 100%), url(${ content.image })` }">
+          <div class="text-holder container-fluid" align="left">
+            <div class="row">
+              <div class="col-12">
+                <h3 class="text-white">{{ content.title }}</h3>
+                <p class="text-white">{{ content.subtitle }}</p>
+              </div>
+            </div>
+          </div>
+          <nuxt-link class="project-link" :to="link"><button type="button" class="btn btn-small mt-3 bg-yellow darkblue">{{ content.btn }}</button></nuxt-link>
+
+
+        </div>
       </div>
     </div>
+  </div>
+
+
     <!--
+    <div id="image-holder" :style="{ backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.44) 29.17%, rgba(0, 0, 0, 0.1) 46.88%, rgba(0, 0, 0, 0.1) 100%), url(${ content.image })` }" align="left">
+      <div id="text-holder" >
+
+      </div>
+    </div>
+
     <div class="bg-lightgrey" id="shadow"></div>
     -->
-  </div>
 
 </template>
 
@@ -25,31 +43,30 @@
 </script>
 
 <style scoped>
-  #image-holder{
-    position: relative;
-    width: 100%;
-    padding-top: 75%;
-    background-position: center;
+
+  .content{
     background-size: cover;
+    background-position: center;
+    padding-bottom: 3rem;
+    min-height: 40vh;
+    padding-top: 19vh;
+  }
+
+  .text-holder{
+    position: relative;
     height: 100%;
-  }
-
-  #shadow{
-    width: 100%;
-    height: 7px;
-  }
-
-  #text-holder{
-
-    padding: 2rem;
-    position: absolute;
-    bottom: 0;
+    padding: 1rem;
   }
 
   .project-holder{
-    padding: 10px;
     border: solid 2px var(--bg);
   }
+  .project-link{
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+  }
+
 
 
 </style>

@@ -16,6 +16,7 @@ fields:
   config: {}
   label: Afbeeldingen
 pages:
+- content/projects/landgoederen/jachthuis-oostermaat.md
 - content/projects/tuinen/een-renovatietuin-in-diepenveen.md
 - content/projects/tuinen/een-tuin-in-de-stenen-kamer-in-deventer.md
 - content/projects/tuinen/grote-tuin-in-een-woonwijk.md

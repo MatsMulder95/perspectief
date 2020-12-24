@@ -55,6 +55,9 @@
     import ContentBlockWide from "@/components/ContentBlockWide";
     const md = new MarkdownIt();
     export default {
+        head: {
+          title: 'Perspectief - Contact'
+        },
         components: {ContentBlockWide, CallAction, ContentBlock, LargeImage, Introduction},
         colorMode: 'yellow',
 

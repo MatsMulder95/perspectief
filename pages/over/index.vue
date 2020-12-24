@@ -30,6 +30,9 @@
     import ContentBlockWide from "@/components/ContentBlockWide";
     const md = new MarkdownIt();
     export default {
+        head: {
+          title: 'Perspectief - Over ons'
+        },
         components: {ContentBlockWide, CallAction, ContentBlock, LargeImage, Introduction},
         colorMode: 'green',
         async asyncData({$content}) {

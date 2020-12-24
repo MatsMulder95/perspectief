@@ -60,6 +60,9 @@
   import CallAction from "../components/CallAction";
   import Introduction from "../components/Introduction";
   export default {
+      head: {
+        title: 'Perspectief - Tuin en Landschapsontwerp Diepenveen'
+      },
       colorMode: 'grey',
       components: {Introduction, CallAction, ProjectHolder, LargeImage},
       async asyncData({$content}) {

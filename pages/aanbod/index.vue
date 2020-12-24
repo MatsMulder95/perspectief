@@ -43,6 +43,9 @@
     import CallAction from "../../components/CallAction";
     import ContentBlock from "~/components/ContentBlock";
     export default {
+        head: {
+          title: 'Perspectief - Ons aanbod'
+        },
         components: {ContentBlock, CallAction, ProjectBlock, LargeImage, Introduction},
         colorMode: 'blue',
         async asyncData({$content}) {

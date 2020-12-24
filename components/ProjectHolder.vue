@@ -10,8 +10,9 @@
                 <p class="text-white">{{ content.subtitle }}</p>
               </div>
             </div>
+            <nuxt-link class="project-link" :to="link"><button type="button" class="btn btn-small bg-yellow darkblue">{{ content.btn }}</button></nuxt-link>
           </div>
-          <nuxt-link class="project-link" :to="link"><button type="button" class="btn btn-small mt-3 bg-yellow darkblue">{{ content.btn }}</button></nuxt-link>
+
 
 
         </div>
@@ -49,22 +50,25 @@
     background-position: center;
     padding-bottom: 3vh;
     min-height: 40vh;
-    padding-top: 19vh;
   }
 
   .text-holder{
-    position: relative;
-    height: 100%;
-    padding: 1rem;
+    position: absolute;
+    bottom: 3.5vh;
+    left: 2vh;
   }
 
   .project-holder{
     border: solid 2px var(--bg);
   }
   .project-link{
-    position: absolute;
-    left: 25px;
-    bottom: 25px;
+
+  }
+
+  @media only screen and (max-width: 400px) {
+    .content{
+      min-height: 55vh;
+    }
   }
 
 

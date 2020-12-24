@@ -4,11 +4,12 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'Perspectief',
+    title: 'Perspectief | Tuin en Landschapsontwerp Diepenveen',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Bent u ontevreden over de huidige inrichting van uw buitenruimte? Wilt u een nieuw beheers- of inrichtingsplan voor uw landgoed? Of verlangt u naar meer groen in de winkelstraat? Perspectief heeft ruim 15 jaar ervaring op het gebied van tuin- en landschapsontwerp en begeleidt u door het hele proces van idee en wensen tot realisatie van uw tuindromen.' },
+      { name: 'robots', content: 'index, follow'},
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -65,6 +66,7 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     'bootstrap-vue/nuxt',
+    '@nuxtjs/google-analytics',
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
@@ -94,5 +96,8 @@ export default {
         done()
       });
     },
-  }
+  },
+  googleAnalytics: {
+    id: 'G-J086YWQGXM'
+  },
 }

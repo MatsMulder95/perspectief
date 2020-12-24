@@ -12,39 +12,31 @@
       <div class="row lightblue">
         <div class="col-12 col-md-6">
           <div class="row">
-            <div class="col-1" >
+
+            <div class="col-12">
               <p>
                 <span class="material-icons contact-icon">markunread_mailbox</span>
+                <a href="https://goo.gl/maps/c13JB1RevNgGy7wF6" target="_blank">Dorpsstraat 44 | 7321Cl Diepenveen</a>
               </p>
               <p>
                 <span class="material-icons contact-icon">call</span>
+                <a href="tel:0570677757">0570677757</a> | <a href="tel:0625222829">0625222829</a>
               </p>
               <p>
                 <span class="material-icons contact-icon">alternate_email</span>
-              </p>
+                <a target="_blank" href="mailto:info@tuinenlandschapsdokter.nl">info@tuinenlandschapsdokter.nl</a>
               <p>
                 <img class="social-logo" src="~assets/linkedin.png">
+                <a href="https://www.linkedin.com/in/ernst-lohle-98452821/" target="_blank">Linkedin</a>
               </p>
               <p>
                 <img class="social-logo" src="~assets/facebook.png">
-              </p>
-
-            </div>
-
-            <div class="col-11 pl-2 pl-lg-0">
-              <a href="https://goo.gl/maps/c13JB1RevNgGy7wF6" target="_blank"><p>Dorpsstraat 44 | 7321Cl Diepenveen</p></a>
-
-              <p><a href="tel:0570677757">0570677757</a> | <a href="tel:0625222829">0625222829</a></p>
-
-              <a target="_blank" href="mailto:info@tuinenlandschapsdokter.nl"><p>info@tuinenlandschapsdokter.nl</p></a>
-              <p>
-                <a href="https://www.linkedin.com/in/ernst-lohle-98452821/" target="_blank">Facebook</a>
-              </p>
-              <p>
-                <a href="https://www.facebook.com/lohleakk" target="_blank">LinkedIn</a>
+                <a href="https://www.facebook.com/lohleakk/" target="_blank">Facebook</a>
               </p>
             </div>
+
           </div>
+
 
         </div>
         </div>
@@ -109,7 +101,7 @@
           </div>
           -->
 
-      <div style="position: relative; width: 100%; height: 100%">
+      <div id="vhg-logo" style="position: relative; width: 100%; height: 100%">
         <a href="https://www.vhg.org/" target="_blank"><img style="position: absolute; bottom: 0; right: 0px; height: 100px" src="/images/vhg_logo.png"></a>
       </div>
 
@@ -128,12 +120,8 @@
 <style scoped>
   .social-logo {
     width: 1rem;
+    margin-right: 10px;
     transition: all .1s ease-in-out;
-  }
-
-  .social-logo:hover{
-    transform: scale(1.1);
-    cursor: pointer;
   }
 
   h2{
@@ -157,6 +145,8 @@
 
   .contact-icon{
     font-size: 1rem;
+    margin-right: 10px;
+    vertical-align: auto;
   }
 
   p{
@@ -169,5 +159,13 @@
     display: inline-block;
     line-height: 0.85;
   }
+
+  @media only screen and (max-width: 400px) {
+    #vhg-logo{
+      margin-top: 50px;
+    }
+  }
+
+
 
 </style>

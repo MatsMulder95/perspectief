@@ -79,7 +79,7 @@
               })
               .add({
                 targets: '.mobile-link-effect',
-                opacity: 1,
+                opacity: [0,1],
                 delay: anime.stagger(100,)
               })
               .add({

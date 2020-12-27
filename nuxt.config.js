@@ -61,7 +61,6 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     '@nuxtjs/color-mode',
-    '@nuxtjs/google-analytics',
 
   ],
 
@@ -70,7 +69,7 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     'bootstrap-vue/nuxt',
-    '@nuxtjs/google-analytics',
+    '@nuxt/google-analytics',
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)

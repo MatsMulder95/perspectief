@@ -59,7 +59,7 @@ kosten:
   content: |-
     ###### Uurprijs
 
-    De kosten voor een opdracht worden berekend op basis van een uurtarief. Een vrijblijvende kennismaking zal daarbij de basis vormen voor de offerte. We hanteren twee verschillende uurtarieven, op basis van het type werkzaamheden:
+    De kosten voor een opdracht worden berekend op basis van een uurtarief. Tijdens de eerste kennismaking zal een kostenbegroting worden gemaakt. We hanteren twee verschillende uurtarieven, op basis van het type werkzaamheden:
 
     ###### Tekenopdrachten
 

@@ -57,19 +57,17 @@ kosten:
     overzicht van onze kosten en tarieven.
   image: "/images/IMG_9639.jpg"
   content: |-
-    Iets is duur, als u een miskoop doet of als u iets krijgt, wat U niet wil. Dat is bij Perspectief nooit het geval, immers uw wensen worden vertaald en op papier gezet. De tekening is de leidraad voor de inrichting en de kostenbegroting voor exploitatie, die volgens vaste standaardprijzen worden berekend.
-
     ###### Uurprijs
 
-    Als ontwerper ben je bezig een mooie vertaalslag te maken van een plan in een tweedimensionaal vlak naar een driedimensionale werkelijkheid. In deze virtuele wereld heb je te maken met de ruimte indelen naar een menselijke maat met voornamelijk planten. Deze planten hebben een verticale gelaagdheid (bomen, struiken, vaste planten en bollen) en verschillen in kleur, bloeitijd en textuur. De kleur kan alles bepalend zijn, of ritmisch terug komen in tijd en plaats
+    De kosten voor een opdracht worden berekend op basis van een uurtarief. Een vrijblijvende kennismaking zal daarbij de basis vormen voor de offerte. We hanteren twee verschillende uurtarieven, op basis van het type werkzaamheden:
 
     ###### Tekenopdrachten
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Voor tekenwerkzaamheden vragen wij een uurtarief van €42,50 per uur exclusief btw. Daarbij kunt u verwachten dat een gebruikelijke opdracht tussen de 20 en 30 uur in beslag neemt, inclusief 5 sessies om uw smaak en wensen te leren kennen.
 
-    ###### Dagtarief
+    ###### Hovenierswerkzaamheden
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Voor hovenierswerkzaamheden geldt een lager uurtarief van €35,- euro per uur exclusief btw. Dit geldt voor alle kleine en grote werkzaamheden in de tuin, zoals aanleg en onderhoud.
 call_to_action:
   title: Iets onduidelijk?
   subtitle: Is iets nog onduidelijk, heeft u aanvullende vragen of wilt u graag een

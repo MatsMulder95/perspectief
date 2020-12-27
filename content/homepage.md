@@ -1,7 +1,7 @@
 ---
 introduction:
   name: Perspectief
-  title: Tuin- en landschapsdokter
+  title: Tuin- & Landschapsdokter
   description: Bent u ontevreden over de huidige inrichting van uw buitenruimte? Wilt
     u een nieuw beheers- of inrichtingsplan voor uw landgoed? Of verlangt u naar meer
     groen in de winkelstraat? Perspectief heeft ruim 15 jaar ervaring  op het gebied

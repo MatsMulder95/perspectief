@@ -102,6 +102,10 @@ export default {
     },
   },
   googleAnalytics: {
-    id: 'G-J086YWQGXM'
+    asyncID: async (context) => {
+      /* do something */
+
+      return 'G-XWRLBL4GPZ'
+    }
   },
 }

@@ -16,7 +16,7 @@
             <div class="col-12">
               <p>
                 <span class="material-icons contact-icon">markunread_mailbox</span>
-                <a href="https://goo.gl/maps/c13JB1RevNgGy7wF6" target="_blank">Dorpsstraat 44 | 7321Cl Diepenveen</a>
+                <a href="https://goo.gl/maps/c13JB1RevNgGy7wF6" target="_blank">Dorpsstraat 44 | 7321CL Diepenveen</a>
               </p>
               <p>
                 <span class="material-icons contact-icon">call</span>

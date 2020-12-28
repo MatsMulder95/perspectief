@@ -61,7 +61,6 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     '@nuxtjs/color-mode',
-
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -69,7 +68,7 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     'bootstrap-vue/nuxt',
-    '@nuxt/google-analytics',
+    '@nuxtjs/google-analytics'
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
@@ -101,10 +100,6 @@ export default {
     },
   },
   googleAnalytics: {
-    asyncID: async (context) => {
-      /* do something */
-
-      return 'G-XWRLBL4GPZ'
-    }
+    id: 'G-XWRLBL4GPZ'
   },
 }

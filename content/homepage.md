@@ -39,7 +39,7 @@ aanbod:
     btn: Bekijk onze projecten
     image: "/images/kunstenlab3.jpg"
 call_to_action:
-  title: Wat zijn uw buiten dromen?
+  title: Wat zijn uw buitendromen?
   subtitle: 'Iedereen heeft buiten dromen, wat zijn dan die van u? Neem contact op
     voor meer informatie of een vrijblijvend kennismakingsgesprek. '
   btn: Neem contact op

@@ -7,7 +7,7 @@ introduction:
 large_image:
   src: "/images/sfeer3.jpg"
 form:
-  title: neem Contact op
+  title: Neem contact op
   subtitle: Heeft uw nog andere vragen of bent geïnteresseerd in een kennismakingsgesprek?
     U kunt contact opnemen doormiddel van het onderstaande formulier.
   image: "/images/IMG_9631.jpg"
